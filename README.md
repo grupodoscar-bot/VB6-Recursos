@@ -12,6 +12,14 @@ Recursos descargables organizados por programa. De momento, **fondos** de escrit
 
 Programas: `barRestaurante`, `tpv`, `gestion`, `peluqueria`, `taller`.
 
+Recursos compartidos por todos los programas:
+
+```
+comun/
+    recursos/   imágenes y recursos comunes
+    remoto/     utilidades (asistencia remota, instalador multipuesto)
+```
+
 ## lista.txt
 
 - **Línea 0**: versión (texto). Se actualiza cuando cambian los fondos.
