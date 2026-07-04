@@ -17,13 +17,10 @@ $recursos = @(
     # @{ ruta = 'comun/otro.exe';               destino = 'APP'; programas = 'bar,gestion' }
 )
 
-# Esquemas de referencia de la estructura (uno por programa -> solo a su programa,
-# en la subcarpeta 'esquemas'). Los consume reparaBasedatos.exe (opción Actualizar estructura).
-foreach ($p in @('bar', 'gestion', 'peluqueria', 'taller', 'tpv', 'carpintero', 'cristaleria')) {
-    if (Test-Path (Join-Path $repo "comun\esquemas\$p.json")) {
-        $recursos += @{ ruta = "comun/esquemas/$p.json"; destino = 'APP\esquemas'; programas = $p }
-    }
-}
+# NOTA: los esquemas de referencia de la estructura NO se distribuyen por este
+# manifiesto del común. Se gestionarán APARTE, por el propio reparaBasedatos.exe,
+# más adelante. Los .json siguen en comun/esquemas/ como fuente, pero el arranque
+# de los programas solo baja el exe.
 
 $lineas = @('# Manifiesto de recursos VB6-Recursos (generado por generar-manifiesto.ps1).',
     '# Formato:  hash|rutaRepo|destino|programas   (hash = SHA1 corto del fichero)')
