@@ -1,3 +1,10 @@
 # Manifiesto de recursos VB6-Recursos (generado por generar-manifiesto.ps1).
 # Formato:  hash|rutaRepo|destino|programas   (hash = SHA1 corto del fichero)
 c60ece8b5f88|comun/reparaBasedatos.exe|APP|*
+727441a24613|comun/esquemas/bar.json|APP\esquemas|bar
+f954cd887e14|comun/esquemas/gestion.json|APP\esquemas|gestion
+61e59029fd23|comun/esquemas/peluqueria.json|APP\esquemas|peluqueria
+007b8b6433cb|comun/esquemas/taller.json|APP\esquemas|taller
+bac552e9ace6|comun/esquemas/tpv.json|APP\esquemas|tpv
+b0cfc5c5a6e3|comun/esquemas/carpintero.json|APP\esquemas|carpintero
+b889ad27c96f|comun/esquemas/cristaleria.json|APP\esquemas|cristaleria

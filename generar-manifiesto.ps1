@@ -17,6 +17,14 @@ $recursos = @(
     # @{ ruta = 'comun/otro.exe';               destino = 'APP'; programas = 'bar,gestion' }
 )
 
+# Esquemas de referencia de la estructura (uno por programa -> solo a su programa,
+# en la subcarpeta 'esquemas'). Los consume reparaBasedatos.exe (opción Actualizar estructura).
+foreach ($p in @('bar', 'gestion', 'peluqueria', 'taller', 'tpv', 'carpintero', 'cristaleria')) {
+    if (Test-Path (Join-Path $repo "comun\esquemas\$p.json")) {
+        $recursos += @{ ruta = "comun/esquemas/$p.json"; destino = 'APP\esquemas'; programas = $p }
+    }
+}
+
 $lineas = @('# Manifiesto de recursos VB6-Recursos (generado por generar-manifiesto.ps1).',
     '# Formato:  hash|rutaRepo|destino|programas   (hash = SHA1 corto del fichero)')
 
@@ -37,8 +45,8 @@ git config --global --add safe.directory '*' | Out-Null
 Push-Location $repo
 $verObsoleto = 'comun/reparaBasedatos.version.txt'
 if (Test-Path (Join-Path $repo ($verObsoleto -replace '/', '\'))) { git rm -q $verObsoleto | Out-Null }
-git add 'comun/manifiesto.txt'
-git commit -m 'manifiesto de recursos actualizado' | Out-Null
+git add 'comun/manifiesto.txt' 'comun/esquemas'
+git commit -m 'manifiesto + esquemas de referencia actualizados' | Out-Null
 $remote = 'https://grupodoscar-bot:' + $tok + '@github.com/grupodoscar-bot/VB6-Recursos.git'
 git push $remote HEAD:main
 Pop-Location
