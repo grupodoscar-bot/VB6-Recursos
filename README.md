@@ -16,9 +16,21 @@ Recursos compartidos por todos los programas:
 
 ```
 comun/
-    recursos/   imágenes y recursos comunes
-    remoto/     utilidades (asistencia remota, instalador multipuesto)
+    recursos/    imágenes y recursos comunes
+    remoto/      utilidades (asistencia remota, instalador multipuesto)
+    utilidades/  scripts de despliegue (compartir la instalación en red)
 ```
+
+## Compartir la instalación en red
+
+`comun/utilidades/CompartirDoscar.bat` prepara un equipo para trabajar en red:
+
+- **En el servidor** (el PC que tiene el programa): copie el `.bat` en la carpeta de
+  instalación y ejecútelo **como administrador**. Comparte la carpeta, crea el usuario
+  de acceso y genera un segundo script `ConectarDoscar_<EQUIPO>.bat`.
+- **En cada puesto**: ejecute ese `ConectarDoscar_<EQUIPO>.bat` con **doble clic normal**.
+  Monta la unidad de red (busca la primera letra libre) y crea en el escritorio los
+  accesos directos de los programas encontrados.
 
 ## lista.txt
 
