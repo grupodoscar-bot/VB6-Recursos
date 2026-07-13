@@ -1,3 +1,4 @@
 # Manifiesto de recursos VB6-Recursos (generado por generar-manifiesto.ps1).
 # Formato:  hash|rutaRepo|destino|programas   (hash = SHA1 corto del fichero)
 c60ece8b5f88|comun/reparaBasedatos.exe|APP|*
+fcdbedb7a1df|comun/utilidades/CompartirDoscar.bat|APP|*

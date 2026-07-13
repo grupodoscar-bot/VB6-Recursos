@@ -13,6 +13,7 @@ $manifiesto = Join-Path $repo 'comun\manifiesto.txt'
 #   programas : *  (todos)  |  lista  bar,gestion,peluqueria,taller,tpv,carpintero,cristaleria
 $recursos = @(
     @{ ruta = 'comun/reparaBasedatos.exe'; destino = 'APP'; programas = '*' }
+    @{ ruta = 'comun/utilidades/CompartirDoscar.bat'; destino = 'APP'; programas = '*' }
     # @{ ruta = 'comun/recursos/verifactu.bmp'; destino = 'APP'; programas = '*' }
     # @{ ruta = 'comun/otro.exe';               destino = 'APP'; programas = 'bar,gestion' }
 )
