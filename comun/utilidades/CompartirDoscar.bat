@@ -53,8 +53,24 @@ if %errorlevel%==0 (
     echo [OK] Usuario %USUARIO% creado.
 )
 
-REM ---- Que la contrasena nunca caduque ----
-wmic useraccount where "name='%USUARIO%'" set PasswordExpires=false >nul 2>&1
+REM ---- Que la contrasena NO caduque (equipo + flag por-cuenta con fallback) ----
+REM (a) Politica del equipo: quitar la edad maxima de contrasena (net, existe en todo Windows)
+net accounts /maxpwage:unlimited >nul 2>&1
+
+REM (b) Flag por-cuenta: PowerShell (Set-LocalUser) si existe; si no, wmic. Best-effort.
+set "PWDOK="
+powershell -NoProfile -Command "if(-not (Get-Command Set-LocalUser -ErrorAction SilentlyContinue)){exit 2}; try{ Set-LocalUser -Name '%USUARIO%' -PasswordNeverExpires $true -ErrorAction Stop; exit 0 }catch{ exit 3 }" >nul 2>&1
+if not errorlevel 1 (
+    set "PWDOK=PowerShell"
+) else (
+    wmic useraccount where "name='%USUARIO%'" set PasswordExpires=false >nul 2>&1 && set "PWDOK=wmic"
+)
+if defined PWDOK (
+    echo [OK] Contrasena de %USUARIO%: "nunca caduca" via !PWDOK! + maxpwage sin limite.
+) else (
+    echo [AVISO] No se pudo marcar "nunca caduca" ^(ni PowerShell ni wmic^).
+    echo         Queda "maxpwage unlimited" como red. Si reaparece, revisar GPO del equipo.
+)
 
 REM ---- 2) Permisos NTFS: control total sobre la carpeta ----
 icacls "%CARPETA%" /grant "%USUARIO%:(OI)(CI)F" /T /C >nul
