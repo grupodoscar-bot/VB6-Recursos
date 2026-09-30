@@ -2,3 +2,9 @@
 # Formato:  hash|rutaRepo|destino|programas   (hash = SHA1 corto del fichero)
 c60ece8b5f88|comun/reparaBasedatos.exe|APP|*
 fd809d29cda7|comun/utilidades/CompartirDoscar.bat|APP|*
+03c3f547754d|comun/certificados-tbai/instalar-raices-sectigo.bat|APP\certificados-tbai|*
+9df4dd7c6dfa|comun/certificados-tbai/instalar-raices-sectigo.ps1|APP\certificados-tbai|*
+ad98f9f3e47d|comun/certificados-tbai/SectigoPublicServerAuthenticationRootR46.cer|APP\certificados-tbai|*
+ec8a396c40f0|comun/certificados-tbai/SectigoPublicServerAuthenticationRootE46.cer|APP\certificados-tbai|*
+b9943dd2f582|comun/certificados-tbai/LEEME.txt|APP\certificados-tbai|*
+7d1499bb599f|comun/certificados-tbai/VERSION.txt|APP\certificados-tbai|*
