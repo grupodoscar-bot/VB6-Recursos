@@ -14,6 +14,13 @@ $manifiesto = Join-Path $repo 'comun\manifiesto.txt'
 $recursos = @(
     @{ ruta = 'comun/reparaBasedatos.exe'; destino = 'APP'; programas = '*' }
     @{ ruta = 'comun/utilidades/CompartirDoscar.bat'; destino = 'APP'; programas = '*' }
+    # Kit raices SSL/TLS Sectigo para TicketBAI (se descarga a App.Path\certificados-tbai en TODOS).
+    @{ ruta = 'comun/certificados-tbai/instalar-raices-sectigo.bat'; destino = 'APP\certificados-tbai'; programas = '*' }
+    @{ ruta = 'comun/certificados-tbai/instalar-raices-sectigo.ps1'; destino = 'APP\certificados-tbai'; programas = '*' }
+    @{ ruta = 'comun/certificados-tbai/SectigoPublicServerAuthenticationRootR46.cer'; destino = 'APP\certificados-tbai'; programas = '*' }
+    @{ ruta = 'comun/certificados-tbai/SectigoPublicServerAuthenticationRootE46.cer'; destino = 'APP\certificados-tbai'; programas = '*' }
+    @{ ruta = 'comun/certificados-tbai/LEEME.txt'; destino = 'APP\certificados-tbai'; programas = '*' }
+    @{ ruta = 'comun/certificados-tbai/VERSION.txt'; destino = 'APP\certificados-tbai'; programas = '*' }
     # @{ ruta = 'comun/recursos/verifactu.bmp'; destino = 'APP'; programas = '*' }
     # @{ ruta = 'comun/otro.exe';               destino = 'APP'; programas = 'bar,gestion' }
 )
