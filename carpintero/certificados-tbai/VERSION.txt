@@ -1,0 +1,18 @@
+CERTIFICADOS RAIZ SSL/TLS SECTIGO PARA TICKETBAI
+================================================
+Version: 1.0.0
+Fecha:   2026-09-30
+
+Contenido de esta version:
+  - Sectigo Public Server Authentication Root R46 (SHA1 AD98F9F3E47D753B65D482B3A45217BB6EF5E438)
+  - Sectigo Public Server Authentication Root E46 (SHA1 EC8A396C40F02EBC4275D49FAB1C1A5B67BED29A)
+  - instalar-raices-sectigo.bat / .ps1
+  - raices-sectigo-ticketbai.zip
+
+Historial:
+  1.0.0  2026-09-30  Version inicial. Raices R46 (necesaria) + E46 (preventiva ECC).
+
+Como actualizar (si Hacienda cambia o anade raices):
+  1) Reemplazar los .cer y regenerar el .zip en comun\certificados-tbai.
+  2) Subir el numero de Version arriba y anadir una linea al Historial.
+  3) Replicar la carpeta comun\certificados-tbai a cada programa (mismo contenido).
