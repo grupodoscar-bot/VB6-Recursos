@@ -1,6 +1,6 @@
 # Manifiesto de recursos VB6-Recursos (generado por generar-manifiesto.ps1).
 # Formato:  hash|rutaRepo|destino|programas   (hash = SHA1 corto del fichero)
-c60ece8b5f88|comun/reparaBasedatos.exe|APP|*
+dcb4cd0f3f43|comun/reparaBasedatos.exe|APP|*
 fd809d29cda7|comun/utilidades/CompartirDoscar.bat|APP|*
 03c3f547754d|comun/certificados-tbai/instalar-raices-sectigo.bat|APP\certificados-tbai|*
 9df4dd7c6dfa|comun/certificados-tbai/instalar-raices-sectigo.ps1|APP\certificados-tbai|*

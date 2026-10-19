@@ -1,6 +1,6 @@
 {
   "programa": "taller",
-  "generado": "2026-07-05",
+  "generado": "2026-10-19",
   "tablas": [
     {
       "nombre": "Accesos Directos",
@@ -8,8 +8,7 @@
         {
           "nombre": "Orden",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Comando",
@@ -26,8 +25,7 @@
         {
           "nombre": "Visible",
           "tipo": "BIT",
-          "nulo": false,
-          "default": "False"
+          "nulo": false
         }
       ],
       "pk": [
@@ -84,14 +82,12 @@
         {
           "nombre": "Dependiente",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Linea",
           "tipo": "SMALLINT",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Texto",
@@ -116,8 +112,7 @@
         {
           "nombre": "id_cliente",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "cliente",
@@ -201,8 +196,7 @@
         {
           "nombre": "Linea",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Fecha",
@@ -253,39 +247,33 @@
         {
           "nombre": "Familia",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Tipo Impuesto",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Proveedor 1",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Proveedor 2",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Proveedor 3",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Tipo Articulo",
           "tipo": "TEXT",
           "tamano": 25,
-          "nulo": true,
-          "default": "\"Material\""
+          "nulo": true
         },
         {
           "nombre": "Descripcion Corta",
@@ -307,44 +295,37 @@
         {
           "nombre": "Stock",
           "tipo": "DOUBLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Stock Minimo",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Stock Inicial",
           "tipo": "DOUBLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Stock Maximo",
           "tipo": "DOUBLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Stock Optimo",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Minimo Vender",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Minimo Comprar",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Referencia Proveedor",
@@ -360,56 +341,47 @@
         {
           "nombre": "PVP 1",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "PVP 2",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "PVP 3",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "PVP 4",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "PVP 5",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "PVP 6",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "PVP 7",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "PVP 8",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "PVP 9",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Observaciones",
@@ -425,14 +397,12 @@
         {
           "nombre": "Oferta",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Medida",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Unidad Medida",
@@ -443,14 +413,12 @@
         {
           "nombre": "Peso",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Tabla Descuento",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Fecha Alta",
@@ -465,80 +433,67 @@
         {
           "nombre": "Dias Garantia",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Unidades Bulto",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Precio Medio Compra",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Ultimo Precio Compra",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Beneficio PVP 1",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Beneficio PVP 2",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Beneficio PVP 3",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Beneficio PVP 4",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Beneficio PVP 5",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Beneficio PVP 6",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Beneficio PVP 7",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Beneficio PVP 8",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Beneficio PVP 9",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Compuesto",
@@ -569,8 +524,7 @@
         {
           "nombre": "Minimo Vender TPV",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Descripcion Centrada",
@@ -595,8 +549,7 @@
         {
           "nombre": "Tamaño",
           "tipo": "SMALLINT",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Fuente",
@@ -607,8 +560,7 @@
         {
           "nombre": "Color Texto",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Color Fondo",
@@ -630,20 +582,17 @@
         {
           "nombre": "Precio Compra Proveedor 1",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Precio Compra Proveedor 2",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Precio Compra Proveedor 3",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "CompraRE",
@@ -659,8 +608,7 @@
         {
           "nombre": "Detalle Componentes",
           "tipo": "BIT",
-          "nulo": false,
-          "default": "False"
+          "nulo": false
         },
         {
           "nombre": "PrecioTalla",
@@ -687,8 +635,7 @@
         {
           "nombre": "Incluir Observaciones",
           "tipo": "BIT",
-          "nulo": false,
-          "default": "False"
+          "nulo": false
         },
         {
           "nombre": "Notas",
@@ -699,20 +646,17 @@
         {
           "nombre": "PrecioPorArticulo",
           "tipo": "BIT",
-          "nulo": false,
-          "default": "False"
+          "nulo": false
         },
         {
           "nombre": "ActualizarPrecioPorArticulo",
           "tipo": "BIT",
-          "nulo": false,
-          "default": "False"
+          "nulo": false
         },
         {
           "nombre": "Epigrafe",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         }
       ],
       "pk": [
@@ -757,8 +701,7 @@
         {
           "nombre": "Linea",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Referencia",
@@ -775,20 +718,17 @@
         {
           "nombre": "Cantidad",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Precio",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Descuento",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         }
       ],
       "pk": [
@@ -819,8 +759,7 @@
         {
           "nombre": "Linea",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Codigo Barras",
@@ -869,8 +808,7 @@
         {
           "nombre": "Linea",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Numero Serie",
@@ -919,28 +857,24 @@
         {
           "nombre": "Linea",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Talla",
           "tipo": "TEXT",
           "tamano": 15,
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Color",
           "tipo": "TEXT",
           "tamano": 15,
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Cantidad",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Notas",
@@ -951,20 +885,17 @@
         {
           "nombre": "Precio Exacto",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Porcentaje Diferencia Precio",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Importe Diferencia Precio",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Codigo Barras",
@@ -1031,8 +962,7 @@
         {
           "nombre": "Numero",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Fecha",
@@ -1042,8 +972,7 @@
         {
           "nombre": "Proveedor",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Su Albaran",
@@ -1059,8 +988,7 @@
         {
           "nombre": "Forma de Pago",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Facturado",
@@ -1088,50 +1016,42 @@
         {
           "nombre": "Descuento PP",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Gastos",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Portes",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Moneda",
           "tipo": "SMALLINT",
-          "nulo": true,
-          "default": "1"
+          "nulo": true
         },
         {
           "nombre": "Pedido Recibido",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Actualizar Precio Venta",
           "tipo": "BIT",
-          "nulo": false,
-          "default": "False"
+          "nulo": false
         },
         {
           "nombre": "Retencion",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "EntregaCuenta",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "hash",
@@ -1181,14 +1101,12 @@
         {
           "nombre": "Cliente",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Kilometros",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Combustible",
@@ -1209,8 +1127,7 @@
         {
           "nombre": "Precio Hora",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Observaciones",
@@ -1220,14 +1137,12 @@
         {
           "nombre": "Representante",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Comision",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Aplicar Comision",
@@ -1238,8 +1153,7 @@
         {
           "nombre": "Forma de Pago",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Fecha Caducidad",
@@ -1278,8 +1192,7 @@
         {
           "nombre": "Codigo Postal",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Poblacion",
@@ -1326,32 +1239,27 @@
         {
           "nombre": "Descuento PP",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Gastos",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Portes",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Moneda",
           "tipo": "SMALLINT",
-          "nulo": true,
-          "default": "1"
+          "nulo": true
         },
         {
           "nombre": "Pedido Servido",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Dependiente",
@@ -1371,14 +1279,12 @@
         {
           "nombre": "FranquiciaAntes",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "FranquiciaDespues",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Orden de Trabajo",
@@ -1393,14 +1299,12 @@
         {
           "nombre": "Retencion",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "EntregaCuenta",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "hash",
@@ -1434,8 +1338,7 @@
         {
           "nombre": "Numero",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Fecha",
@@ -1445,8 +1348,7 @@
         {
           "nombre": "Proveedor",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Su Factura",
@@ -1462,8 +1364,7 @@
         {
           "nombre": "Forma de Pago",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Facturado",
@@ -1491,50 +1392,42 @@
         {
           "nombre": "Descuento PP",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Gastos",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Portes",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Moneda",
           "tipo": "SMALLINT",
-          "nulo": true,
-          "default": "1"
+          "nulo": true
         },
         {
           "nombre": "Pedido Recibido",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Actualizar Precio Venta",
           "tipo": "BIT",
-          "nulo": false,
-          "default": "False"
+          "nulo": false
         },
         {
           "nombre": "Retencion",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "EntregaCuenta",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "hash",
@@ -1584,8 +1477,7 @@
         {
           "nombre": "Cliente",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Observaciones",
@@ -1595,14 +1487,12 @@
         {
           "nombre": "Representante",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Comision",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Aplicar Comision",
@@ -1613,8 +1503,7 @@
         {
           "nombre": "Forma de Pago",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Fecha Caducidad",
@@ -1653,8 +1542,7 @@
         {
           "nombre": "Codigo Postal",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Poblacion",
@@ -1701,38 +1589,32 @@
         {
           "nombre": "Descuento PP",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Gastos",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Portes",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Moneda",
           "tipo": "SMALLINT",
-          "nulo": true,
-          "default": "1"
+          "nulo": true
         },
         {
           "nombre": "Pedido Servido",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Kilometros",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Combustible",
@@ -1743,8 +1625,7 @@
         {
           "nombre": "Garantia",
           "tipo": "BIT",
-          "nulo": false,
-          "default": "False"
+          "nulo": false
         },
         {
           "nombre": "Fecha Entrada",
@@ -1754,14 +1635,12 @@
         {
           "nombre": "Precio Hora",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Retencion",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Cierre Caja",
@@ -1788,14 +1667,12 @@
         {
           "nombre": "FranquiciaAntes",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "FranquiciaDespues",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Orden de Trabajo",
@@ -1805,14 +1682,12 @@
         {
           "nombre": "EntregaCuenta",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "IVAFranquicia",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "ExpedienteFace",
@@ -1910,22 +1785,6 @@
           "nulo": true
         },
         {
-          "nombre": "SerieE",
-          "tipo": "TEXT",
-          "tamano": 6,
-          "nulo": true
-        },
-        {
-          "nombre": "NumeroE",
-          "tipo": "INTEGER",
-          "nulo": true
-        },
-        {
-          "nombre": "Emitida",
-          "tipo": "BIT",
-          "nulo": false
-        },
-        {
           "nombre": "Rectificativa",
           "tipo": "INTEGER",
           "nulo": true
@@ -1934,8 +1793,7 @@
           "nombre": "Anulada",
           "tipo": "TEXT",
           "tamano": 1,
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "InversionSujetoPasivo",
@@ -1953,6 +1811,22 @@
           "tipo": "TEXT",
           "tamano": 255,
           "nulo": true
+        },
+        {
+          "nombre": "SerieE",
+          "tipo": "TEXT",
+          "tamano": 6,
+          "nulo": true
+        },
+        {
+          "nombre": "NumeroE",
+          "tipo": "INTEGER",
+          "nulo": true
+        },
+        {
+          "nombre": "Emitida",
+          "tipo": "BIT",
+          "nulo": false
         },
         {
           "nombre": "faceActPeriod",
@@ -1990,8 +1864,7 @@
           "nombre": "tipoSujeta",
           "tipo": "TEXT",
           "tamano": 3,
-          "nulo": true,
-          "default": "SU"
+          "nulo": true
         },
         {
           "nombre": "hash",
@@ -2054,6 +1927,11 @@
           "tipo": "TEXT",
           "tamano": 8,
           "nulo": true
+        },
+        {
+          "nombre": "PrestacionServicios",
+          "tipo": "BIT",
+          "nulo": false
         }
       ],
       "pk": [
@@ -2092,8 +1970,7 @@
         {
           "nombre": "Cliente",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Observaciones",
@@ -2103,14 +1980,12 @@
         {
           "nombre": "Representante",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Comision",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Aplicar Comision",
@@ -2121,8 +1996,7 @@
         {
           "nombre": "Forma de Pago",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Fecha Caducidad",
@@ -2161,8 +2035,7 @@
         {
           "nombre": "Codigo Postal",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Poblacion",
@@ -2209,32 +2082,27 @@
         {
           "nombre": "Descuento PP",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Gastos",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Portes",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Moneda",
           "tipo": "SMALLINT",
-          "nulo": true,
-          "default": "1"
+          "nulo": true
         },
         {
           "nombre": "Kilometros",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Combustible",
@@ -2245,8 +2113,7 @@
         {
           "nombre": "Garantia",
           "tipo": "BIT",
-          "nulo": false,
-          "default": "False"
+          "nulo": false
         },
         {
           "nombre": "Fecha Entrada",
@@ -2256,8 +2123,7 @@
         {
           "nombre": "Precio Hora",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Dependiente",
@@ -2282,14 +2148,12 @@
         {
           "nombre": "Retencion",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "EntregaCuenta",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "hash",
@@ -2323,8 +2187,7 @@
         {
           "nombre": "Numero",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Fecha",
@@ -2334,8 +2197,7 @@
         {
           "nombre": "Proveedor",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Su Factura",
@@ -2351,8 +2213,7 @@
         {
           "nombre": "Forma de Pago",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Facturado",
@@ -2380,50 +2241,42 @@
         {
           "nombre": "Descuento PP",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Gastos",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Portes",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Moneda",
           "tipo": "SMALLINT",
-          "nulo": true,
-          "default": "1"
+          "nulo": true
         },
         {
           "nombre": "Pedido Recibido",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Actualizar Precio Venta",
           "tipo": "BIT",
-          "nulo": false,
-          "default": "False"
+          "nulo": false
         },
         {
           "nombre": "Retencion",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "EntregaCuenta",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "hash",
@@ -2473,8 +2326,7 @@
         {
           "nombre": "Cliente",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Observaciones",
@@ -2484,14 +2336,12 @@
         {
           "nombre": "Representante",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Comision",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Aplicar Comision",
@@ -2502,8 +2352,7 @@
         {
           "nombre": "Forma de Pago",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Fecha Caducidad",
@@ -2542,8 +2391,7 @@
         {
           "nombre": "Codigo Postal",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Poblacion",
@@ -2590,38 +2438,32 @@
         {
           "nombre": "Descuento PP",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Gastos",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Portes",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Moneda",
           "tipo": "SMALLINT",
-          "nulo": true,
-          "default": "1"
+          "nulo": true
         },
         {
           "nombre": "Pedido Servido",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Kilometros",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Combustible",
@@ -2632,8 +2474,7 @@
         {
           "nombre": "Garantia",
           "tipo": "BIT",
-          "nulo": false,
-          "default": "False"
+          "nulo": false
         },
         {
           "nombre": "Fecha Entrada",
@@ -2643,14 +2484,12 @@
         {
           "nombre": "Precio Hora",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Retencion",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Cierre Caja",
@@ -2677,29 +2516,12 @@
         {
           "nombre": "EntregaCuenta",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "facOriginal",
           "tipo": "INTEGER",
           "nulo": true
-        },
-        {
-          "nombre": "SerieE",
-          "tipo": "TEXT",
-          "tamano": 6,
-          "nulo": true
-        },
-        {
-          "nombre": "NumeroE",
-          "tipo": "INTEGER",
-          "nulo": true
-        },
-        {
-          "nombre": "Emitida",
-          "tipo": "BIT",
-          "nulo": false
         },
         {
           "nombre": "tbai",
@@ -2767,18 +2589,47 @@
           "nulo": true
         },
         {
+          "nombre": "SerieE",
+          "tipo": "TEXT",
+          "tamano": 6,
+          "nulo": true
+        },
+        {
+          "nombre": "NumeroE",
+          "tipo": "INTEGER",
+          "nulo": true
+        },
+        {
+          "nombre": "Emitida",
+          "tipo": "BIT",
+          "nulo": false
+        },
+        {
           "nombre": "tipoExenta",
           "tipo": "TEXT",
           "tamano": 2,
-          "nulo": true,
-          "default": "XX"
+          "nulo": true
         },
         {
           "nombre": "tipoSujeta",
           "tipo": "TEXT",
           "tamano": 3,
-          "nulo": true,
-          "default": "SU"
+          "nulo": true
+        },
+        {
+          "nombre": "FranquiciaAntes",
+          "tipo": "SINGLE",
+          "nulo": true
+        },
+        {
+          "nombre": "FranquiciaDespues",
+          "tipo": "SINGLE",
+          "nulo": true
+        },
+        {
+          "nombre": "IVAFranquicia",
+          "tipo": "SINGLE",
+          "nulo": true
         },
         {
           "nombre": "hash",
@@ -2795,29 +2646,12 @@
           "nombre": "tipoRec",
           "tipo": "TEXT",
           "tamano": 3,
-          "nulo": true,
-          "default": "R1"
+          "nulo": true
         },
         {
           "nombre": "tipoRecTipo",
           "tipo": "TEXT",
           "tamano": 12,
-          "nulo": true,
-          "default": "Sustitucion"
-        },
-        {
-          "nombre": "FranquiciaAntes",
-          "tipo": "SINGLE",
-          "nulo": true
-        },
-        {
-          "nombre": "FranquiciaDespues",
-          "tipo": "SINGLE",
-          "nulo": true
-        },
-        {
-          "nombre": "IVAFranquicia",
-          "tipo": "SINGLE",
           "nulo": true
         },
         {
@@ -2870,6 +2704,11 @@
           "tipo": "TEXT",
           "tamano": 8,
           "nulo": true
+        },
+        {
+          "nombre": "PrestacionServicios",
+          "tipo": "BIT",
+          "nulo": false
         }
       ],
       "pk": [
@@ -2908,8 +2747,7 @@
         {
           "nombre": "Cliente",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Observaciones",
@@ -2919,14 +2757,12 @@
         {
           "nombre": "Representante",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Comision",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Aplicar Comision",
@@ -2937,8 +2773,7 @@
         {
           "nombre": "Forma de Pago",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Fecha Caducidad",
@@ -2977,8 +2812,7 @@
         {
           "nombre": "Codigo Postal",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Poblacion",
@@ -3025,38 +2859,32 @@
         {
           "nombre": "Descuento PP",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Gastos",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Portes",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Moneda",
           "tipo": "SMALLINT",
-          "nulo": true,
-          "default": "1"
+          "nulo": true
         },
         {
           "nombre": "Pedido Servido",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Kilometros",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Combustible",
@@ -3067,8 +2895,7 @@
         {
           "nombre": "Garantia",
           "tipo": "BIT",
-          "nulo": false,
-          "default": "0"
+          "nulo": false
         },
         {
           "nombre": "Fecha Entrada",
@@ -3078,14 +2905,12 @@
         {
           "nombre": "Precio Hora",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Retencion",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Cierre Caja",
@@ -3140,8 +2965,7 @@
         {
           "nombre": "Proveedor",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Su Nota",
@@ -3157,8 +2981,7 @@
         {
           "nombre": "Forma de Pago",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Facturado",
@@ -3186,44 +3009,37 @@
         {
           "nombre": "Descuento PP",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Gastos",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Portes",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Moneda",
           "tipo": "SMALLINT",
-          "nulo": true,
-          "default": "1"
+          "nulo": true
         },
         {
           "nombre": "Actualizar Precio Venta",
           "tipo": "BIT",
-          "nulo": false,
-          "default": "False"
+          "nulo": false
         },
         {
           "nombre": "Retencion",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "EntregaCuenta",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "hash",
@@ -3273,8 +3089,7 @@
         {
           "nombre": "Cliente",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Observaciones",
@@ -3284,14 +3099,12 @@
         {
           "nombre": "Representante",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Comision",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Aplicar Comision",
@@ -3302,8 +3115,7 @@
         {
           "nombre": "Forma de Pago",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Fecha Caducidad",
@@ -3342,8 +3154,7 @@
         {
           "nombre": "Codigo Postal",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Poblacion",
@@ -3390,32 +3201,27 @@
         {
           "nombre": "Descuento PP",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Gastos",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Portes",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Moneda",
           "tipo": "SMALLINT",
-          "nulo": true,
-          "default": "1"
+          "nulo": true
         },
         {
           "nombre": "Kilometros",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Combustible",
@@ -3426,8 +3232,7 @@
         {
           "nombre": "Garantia",
           "tipo": "BIT",
-          "nulo": false,
-          "default": "False"
+          "nulo": false
         },
         {
           "nombre": "Fecha Entrada",
@@ -3437,14 +3242,12 @@
         {
           "nombre": "Precio Hora",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Retencion",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Dependiente",
@@ -3464,14 +3267,12 @@
         {
           "nombre": "FranquiciaAntes",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "FranquiciaDespues",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Orden de Trabajo",
@@ -3481,8 +3282,7 @@
         {
           "nombre": "EntregaCuenta",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "hash",
@@ -3532,14 +3332,12 @@
         {
           "nombre": "Cliente",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Kilometros",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Combustible",
@@ -3550,8 +3348,7 @@
         {
           "nombre": "Garantia",
           "tipo": "BIT",
-          "nulo": false,
-          "default": "0"
+          "nulo": false
         },
         {
           "nombre": "Fecha Entrada",
@@ -3561,8 +3358,7 @@
         {
           "nombre": "Precio Hora",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Observaciones",
@@ -3572,14 +3368,12 @@
         {
           "nombre": "Representante",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Comision",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Aplicar Comision",
@@ -3590,8 +3384,7 @@
         {
           "nombre": "Forma de Pago",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Fecha Caducidad",
@@ -3630,8 +3423,7 @@
         {
           "nombre": "Codigo Postal",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Poblacion",
@@ -3678,32 +3470,27 @@
         {
           "nombre": "Descuento PP",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Gastos",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Portes",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Moneda",
           "tipo": "SMALLINT",
-          "nulo": true,
-          "default": "1"
+          "nulo": true
         },
         {
           "nombre": "Pedido Servido",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Dependiente",
@@ -3723,14 +3510,12 @@
         {
           "nombre": "Retencion",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "EntregaCuenta",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "TipologiaReparacion",
@@ -3773,8 +3558,7 @@
         {
           "nombre": "Proveedor",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Su Pedido",
@@ -3790,8 +3574,7 @@
         {
           "nombre": "Forma de Pago",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Facturado",
@@ -3819,38 +3602,32 @@
         {
           "nombre": "Descuento PP",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Gastos",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Portes",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Moneda",
           "tipo": "SMALLINT",
-          "nulo": true,
-          "default": "1"
+          "nulo": true
         },
         {
           "nombre": "Retencion",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "EntregaCuenta",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "hash",
@@ -3900,8 +3677,7 @@
         {
           "nombre": "Cliente",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Observaciones",
@@ -3911,14 +3687,12 @@
         {
           "nombre": "Representante",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Comision",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Aplicar Comision",
@@ -3929,8 +3703,7 @@
         {
           "nombre": "Forma de Pago",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Fecha Caducidad",
@@ -3969,8 +3742,7 @@
         {
           "nombre": "Codigo Postal",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Poblacion",
@@ -4017,32 +3789,27 @@
         {
           "nombre": "Descuento PP",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Gastos",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Portes",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Moneda",
           "tipo": "SMALLINT",
-          "nulo": true,
-          "default": "1"
+          "nulo": true
         },
         {
           "nombre": "Kilometros",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Combustible",
@@ -4053,8 +3820,7 @@
         {
           "nombre": "Garantia",
           "tipo": "BIT",
-          "nulo": false,
-          "default": "False"
+          "nulo": false
         },
         {
           "nombre": "Fecha Entrada",
@@ -4064,8 +3830,7 @@
         {
           "nombre": "Precio Hora",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Dependiente",
@@ -4090,14 +3855,12 @@
         {
           "nombre": "Retencion",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "EntregaCuenta",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "hash",
@@ -4131,8 +3894,7 @@
         {
           "nombre": "Codigo",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Nombre",
@@ -4182,8 +3944,7 @@
         {
           "nombre": "Cliente",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Observaciones",
@@ -4193,14 +3954,12 @@
         {
           "nombre": "Representante",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Comision",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Aplicar Comision",
@@ -4211,8 +3970,7 @@
         {
           "nombre": "Forma de Pago",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Fecha Caducidad",
@@ -4251,8 +4009,7 @@
         {
           "nombre": "Codigo Postal",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Poblacion",
@@ -4299,32 +4056,27 @@
         {
           "nombre": "Descuento PP",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Gastos",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Portes",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Moneda",
           "tipo": "SMALLINT",
-          "nulo": true,
-          "default": "1"
+          "nulo": true
         },
         {
           "nombre": "Kilometros",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Combustible",
@@ -4335,8 +4087,7 @@
         {
           "nombre": "Garantia",
           "tipo": "BIT",
-          "nulo": false,
-          "default": "False"
+          "nulo": false
         },
         {
           "nombre": "Fecha Entrada",
@@ -4346,8 +4097,7 @@
         {
           "nombre": "Precio Hora",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Dependiente",
@@ -4372,14 +4122,12 @@
         {
           "nombre": "Retencion",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "EntregaCuenta",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "hash",
@@ -4428,20 +4176,17 @@
         {
           "nombre": "Cliente",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Caja",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Dependiente",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Cuenta",
@@ -4451,8 +4196,7 @@
         {
           "nombre": "Entrega",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Facturado",
@@ -4474,14 +4218,12 @@
         {
           "nombre": "Descuento PP",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Moneda",
           "tipo": "SMALLINT",
-          "nulo": true,
-          "default": "1"
+          "nulo": true
         },
         {
           "nombre": "Aplazado",
@@ -4515,20 +4257,17 @@
         {
           "nombre": "Entrega1",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Entrega2",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Entrega3",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Notas",
@@ -4595,17 +4334,6 @@
           "nulo": true
         },
         {
-          "nombre": "SerieE",
-          "tipo": "TEXT",
-          "tamano": 6,
-          "nulo": true
-        },
-        {
-          "nombre": "NumeroE",
-          "tipo": "INTEGER",
-          "nulo": true
-        },
-        {
           "nombre": "Emitida",
           "tipo": "BIT",
           "nulo": false
@@ -4623,18 +4351,27 @@
           "nulo": true
         },
         {
+          "nombre": "SerieE",
+          "tipo": "TEXT",
+          "tamano": 6,
+          "nulo": true
+        },
+        {
+          "nombre": "NumeroE",
+          "tipo": "INTEGER",
+          "nulo": true
+        },
+        {
           "nombre": "tipoExenta",
           "tipo": "TEXT",
           "tamano": 2,
-          "nulo": true,
-          "default": "XX"
+          "nulo": true
         },
         {
           "nombre": "tipoSujeta",
           "tipo": "TEXT",
           "tamano": 3,
-          "nulo": true,
-          "default": "SU"
+          "nulo": true
         },
         {
           "nombre": "hash",
@@ -4650,8 +4387,7 @@
         {
           "nombre": "Historico",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "-1"
+          "nulo": true
         },
         {
           "nombre": "FechaEmision",
@@ -4702,6 +4438,23 @@
           "nombre": "HoraExpedicionTBAI",
           "tipo": "TEXT",
           "tamano": 8,
+          "nulo": true
+        },
+        {
+          "nombre": "tipoRec",
+          "tipo": "TEXT",
+          "tamano": 3,
+          "nulo": true
+        },
+        {
+          "nombre": "tipoRecTipo",
+          "tipo": "TEXT",
+          "tamano": 12,
+          "nulo": true
+        },
+        {
+          "nombre": "facOriginal",
+          "tipo": "INTEGER",
           "nulo": true
         }
       ],
@@ -4766,8 +4519,7 @@
         {
           "nombre": "Codigo",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Nombre",
@@ -4789,8 +4541,7 @@
         {
           "nombre": "Saldo Inicial",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         }
       ],
       "pk": [
@@ -4903,6 +4654,60 @@
           "tipo": "TEXT",
           "tamano": 255,
           "nulo": true
+        },
+        {
+          "nombre": "Texto2",
+          "tipo": "TEXT",
+          "tamano": 255,
+          "nulo": true
+        },
+        {
+          "nombre": "F18",
+          "tipo": "TEXT",
+          "tamano": 255,
+          "nulo": true
+        },
+        {
+          "nombre": "F19",
+          "tipo": "TEXT",
+          "tamano": 255,
+          "nulo": true
+        },
+        {
+          "nombre": "F20",
+          "tipo": "TEXT",
+          "tamano": 255,
+          "nulo": true
+        },
+        {
+          "nombre": "F21",
+          "tipo": "TEXT",
+          "tamano": 255,
+          "nulo": true
+        },
+        {
+          "nombre": "F22",
+          "tipo": "TEXT",
+          "tamano": 255,
+          "nulo": true
+        },
+        {
+          "nombre": "F23",
+          "tipo": "TEXT",
+          "tamano": 255,
+          "nulo": true
+        },
+        {
+          "nombre": "F24",
+          "tipo": "TEXT",
+          "tamano": 255,
+          "nulo": true
+        },
+        {
+          "nombre": "F25",
+          "tipo": "TEXT",
+          "tamano": 255,
+          "nulo": true
         }
       ],
       "pk": [
@@ -4929,14 +4734,12 @@
         {
           "nombre": "Codigo",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Linea",
           "tipo": "SMALLINT",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Campo",
@@ -4953,14 +4756,12 @@
         {
           "nombre": "Horizontal",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Vertical",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Alineacion",
@@ -4977,38 +4778,32 @@
         {
           "nombre": "Tamaño",
           "tipo": "BYTE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Negrita",
           "tipo": "BIT",
-          "nulo": false,
-          "default": "False"
+          "nulo": false
         },
         {
           "nombre": "Cursiva",
           "tipo": "BIT",
-          "nulo": false,
-          "default": "False"
+          "nulo": false
         },
         {
           "nombre": "Subrayado",
           "tipo": "BIT",
-          "nulo": false,
-          "default": "False"
+          "nulo": false
         },
         {
           "nombre": "FinHorizontal",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "FinVertical",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Color",
@@ -5039,14 +4834,12 @@
         {
           "nombre": "Codigo",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Linea",
           "tipo": "SMALLINT",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Campo",
@@ -5063,14 +4856,12 @@
         {
           "nombre": "Horizontal",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Vertical",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Alineacion",
@@ -5087,38 +4878,32 @@
         {
           "nombre": "Tamaño",
           "tipo": "BYTE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Negrita",
           "tipo": "BIT",
-          "nulo": false,
-          "default": "False"
+          "nulo": false
         },
         {
           "nombre": "Cursiva",
           "tipo": "BIT",
-          "nulo": false,
-          "default": "False"
+          "nulo": false
         },
         {
           "nombre": "Subrayado",
           "tipo": "BIT",
-          "nulo": false,
-          "default": "False"
+          "nulo": false
         },
         {
           "nombre": "FinHorizontal",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "FinVertical",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Color",
@@ -5149,8 +4934,7 @@
         {
           "nombre": "Codigo",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Razon Social",
@@ -5161,7 +4945,7 @@
         {
           "nombre": "Titular",
           "tipo": "TEXT",
-          "tamano": 60,
+          "tamano": 40,
           "nulo": true
         },
         {
@@ -5173,8 +4957,7 @@
         {
           "nombre": "Codigo Postal",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Poblacion",
@@ -5197,7 +4980,7 @@
         {
           "nombre": "Telefono 1",
           "tipo": "TEXT",
-          "tamano": 170,
+          "tamano": 17,
           "nulo": true
         },
         {
@@ -5233,8 +5016,7 @@
         {
           "nombre": "Zona",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Persona Contacto",
@@ -5251,8 +5033,7 @@
         {
           "nombre": "Representante",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Archivo Imagen",
@@ -5268,51 +5049,43 @@
         {
           "nombre": "Tarifa",
           "tipo": "SMALLINT",
-          "nulo": true,
-          "default": "1"
+          "nulo": true
         },
         {
           "nombre": "Tabla Descuento",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Descuento PP",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Impuestos",
           "tipo": "TEXT",
           "tamano": 1,
-          "nulo": true,
-          "default": "\"I\""
+          "nulo": true
         },
         {
           "nombre": "Copias",
           "tipo": "SMALLINT",
-          "nulo": true,
-          "default": "1"
+          "nulo": true
         },
         {
           "nombre": "Forma de Pago",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Dia Pago 1",
           "tipo": "SMALLINT",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Dia Pago 2",
           "tipo": "SMALLINT",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Banco",
@@ -5329,8 +5102,7 @@
         {
           "nombre": "Codigo Postal Banco",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Poblacion Banco",
@@ -5378,8 +5150,7 @@
           "nombre": "Portes",
           "tipo": "TEXT",
           "tamano": 1,
-          "nulo": true,
-          "default": "\"D\""
+          "nulo": true
         },
         {
           "nombre": "Domicilio Envio",
@@ -5390,8 +5161,7 @@
         {
           "nombre": "Codigo Postal Envio",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Poblacion Envio",
@@ -5414,14 +5184,12 @@
         {
           "nombre": "Antiguedad",
           "tipo": "DATETIME",
-          "nulo": true,
-          "default": "#12/30/1899#"
+          "nulo": true
         },
         {
           "nombre": "Riesgo",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Aviso",
@@ -5450,8 +5218,7 @@
         {
           "nombre": "Imprimir EMail",
           "tipo": "BIT",
-          "nulo": false,
-          "default": "False"
+          "nulo": false
         },
         {
           "nombre": "Publicidad",
@@ -5479,22 +5246,374 @@
           "nombre": "TipoDocumento",
           "tipo": "TEXT",
           "tamano": 2,
-          "nulo": true,
-          "default": "2"
+          "nulo": true
         },
         {
           "nombre": "PaisAlfa2",
           "tipo": "TEXT",
           "tamano": 2,
-          "nulo": true,
-          "default": "ES"
+          "nulo": true
         },
         {
           "nombre": "tipoExenta",
           "tipo": "TEXT",
           "tamano": 2,
-          "nulo": true,
-          "default": "XX"
+          "nulo": true
+        }
+      ],
+      "pk": [
+        "Codigo"
+      ],
+      "indices": [
+        {
+          "nombre": "CLI_COD",
+          "columnas": [
+            "Codigo"
+          ],
+          "unico": true,
+          "primario": true
+        },
+        {
+          "nombre": "CLI_NOM",
+          "columnas": [
+            "Razon Social"
+          ],
+          "unico": false,
+          "primario": false
+        }
+      ]
+    },
+    {
+      "nombre": "Clientes_",
+      "columnas": [
+        {
+          "nombre": "Codigo",
+          "tipo": "INTEGER",
+          "nulo": true
+        },
+        {
+          "nombre": "Razon Social",
+          "tipo": "TEXT",
+          "tamano": 60,
+          "nulo": true
+        },
+        {
+          "nombre": "Titular",
+          "tipo": "TEXT",
+          "tamano": 40,
+          "nulo": true
+        },
+        {
+          "nombre": "Domicilio",
+          "tipo": "TEXT",
+          "tamano": 60,
+          "nulo": true
+        },
+        {
+          "nombre": "Codigo Postal",
+          "tipo": "INTEGER",
+          "nulo": true
+        },
+        {
+          "nombre": "Poblacion",
+          "tipo": "TEXT",
+          "tamano": 40,
+          "nulo": true
+        },
+        {
+          "nombre": "Provincia",
+          "tipo": "TEXT",
+          "tamano": 25,
+          "nulo": true
+        },
+        {
+          "nombre": "Pais",
+          "tipo": "TEXT",
+          "tamano": 25,
+          "nulo": true
+        },
+        {
+          "nombre": "Telefono 1",
+          "tipo": "TEXT",
+          "tamano": 17,
+          "nulo": true
+        },
+        {
+          "nombre": "Telefono 2",
+          "tipo": "TEXT",
+          "tamano": 17,
+          "nulo": true
+        },
+        {
+          "nombre": "Fax",
+          "tipo": "TEXT",
+          "tamano": 17,
+          "nulo": true
+        },
+        {
+          "nombre": "E-Mail",
+          "tipo": "TEXT",
+          "tamano": 250,
+          "nulo": true
+        },
+        {
+          "nombre": "NIF",
+          "tipo": "TEXT",
+          "tamano": 15,
+          "nulo": true
+        },
+        {
+          "nombre": "Web",
+          "tipo": "TEXT",
+          "tamano": 50,
+          "nulo": true
+        },
+        {
+          "nombre": "Zona",
+          "tipo": "INTEGER",
+          "nulo": true
+        },
+        {
+          "nombre": "Persona Contacto",
+          "tipo": "TEXT",
+          "tamano": 40,
+          "nulo": true
+        },
+        {
+          "nombre": "Telefono Contacto",
+          "tipo": "TEXT",
+          "tamano": 17,
+          "nulo": true
+        },
+        {
+          "nombre": "Representante",
+          "tipo": "INTEGER",
+          "nulo": true
+        },
+        {
+          "nombre": "Archivo Imagen",
+          "tipo": "TEXT",
+          "tamano": 100,
+          "nulo": true
+        },
+        {
+          "nombre": "Observaciones",
+          "tipo": "TEXT",
+          "nulo": true
+        },
+        {
+          "nombre": "Tarifa",
+          "tipo": "SMALLINT",
+          "nulo": true
+        },
+        {
+          "nombre": "Tabla Descuento",
+          "tipo": "INTEGER",
+          "nulo": true
+        },
+        {
+          "nombre": "Descuento PP",
+          "tipo": "SINGLE",
+          "nulo": true
+        },
+        {
+          "nombre": "Impuestos",
+          "tipo": "TEXT",
+          "tamano": 1,
+          "nulo": true
+        },
+        {
+          "nombre": "Copias",
+          "tipo": "SMALLINT",
+          "nulo": true
+        },
+        {
+          "nombre": "Forma de Pago",
+          "tipo": "INTEGER",
+          "nulo": true
+        },
+        {
+          "nombre": "Dia Pago 1",
+          "tipo": "SMALLINT",
+          "nulo": true
+        },
+        {
+          "nombre": "Dia Pago 2",
+          "tipo": "SMALLINT",
+          "nulo": true
+        },
+        {
+          "nombre": "Banco",
+          "tipo": "TEXT",
+          "tamano": 40,
+          "nulo": true
+        },
+        {
+          "nombre": "Domicilio Banco",
+          "tipo": "TEXT",
+          "tamano": 40,
+          "nulo": true
+        },
+        {
+          "nombre": "Codigo Postal Banco",
+          "tipo": "INTEGER",
+          "nulo": true
+        },
+        {
+          "nombre": "Poblacion Banco",
+          "tipo": "TEXT",
+          "tamano": 40,
+          "nulo": true
+        },
+        {
+          "nombre": "Provincia Banco",
+          "tipo": "TEXT",
+          "tamano": 25,
+          "nulo": true
+        },
+        {
+          "nombre": "Pais Banco",
+          "tipo": "TEXT",
+          "tamano": 25,
+          "nulo": true
+        },
+        {
+          "nombre": "Entidad",
+          "tipo": "TEXT",
+          "tamano": 4,
+          "nulo": true
+        },
+        {
+          "nombre": "Sucursal",
+          "tipo": "TEXT",
+          "tamano": 4,
+          "nulo": true
+        },
+        {
+          "nombre": "DC",
+          "tipo": "TEXT",
+          "tamano": 2,
+          "nulo": true
+        },
+        {
+          "nombre": "Cuenta",
+          "tipo": "TEXT",
+          "tamano": 10,
+          "nulo": true
+        },
+        {
+          "nombre": "Portes",
+          "tipo": "TEXT",
+          "tamano": 1,
+          "nulo": true
+        },
+        {
+          "nombre": "Domicilio Envio",
+          "tipo": "TEXT",
+          "tamano": 40,
+          "nulo": true
+        },
+        {
+          "nombre": "Codigo Postal Envio",
+          "tipo": "INTEGER",
+          "nulo": true
+        },
+        {
+          "nombre": "Poblacion Envio",
+          "tipo": "TEXT",
+          "tamano": 40,
+          "nulo": true
+        },
+        {
+          "nombre": "Provincia Envio",
+          "tipo": "TEXT",
+          "tamano": 25,
+          "nulo": true
+        },
+        {
+          "nombre": "Pais Envio",
+          "tipo": "TEXT",
+          "tamano": 25,
+          "nulo": true
+        },
+        {
+          "nombre": "Antiguedad",
+          "tipo": "DATETIME",
+          "nulo": true
+        },
+        {
+          "nombre": "Riesgo",
+          "tipo": "SINGLE",
+          "nulo": true
+        },
+        {
+          "nombre": "Aviso",
+          "tipo": "TEXT",
+          "tamano": 40,
+          "nulo": true
+        },
+        {
+          "nombre": "Campo Libre 1",
+          "tipo": "TEXT",
+          "tamano": 50,
+          "nulo": true
+        },
+        {
+          "nombre": "Campo Libre 2",
+          "tipo": "TEXT",
+          "tamano": 50,
+          "nulo": true
+        },
+        {
+          "nombre": "Campo Libre 3",
+          "tipo": "TEXT",
+          "tamano": 50,
+          "nulo": true
+        },
+        {
+          "nombre": "Imprimir EMail",
+          "tipo": "BIT",
+          "nulo": false
+        },
+        {
+          "nombre": "Publicidad",
+          "tipo": "BIT",
+          "nulo": false
+        },
+        {
+          "nombre": "IBAN",
+          "tipo": "TEXT",
+          "tamano": 4,
+          "nulo": true
+        },
+        {
+          "nombre": "BIC",
+          "tipo": "TEXT",
+          "tamano": 11,
+          "nulo": true
+        },
+        {
+          "nombre": "FechaFirma",
+          "tipo": "DATETIME",
+          "nulo": true
+        },
+        {
+          "nombre": "TipoDocumento",
+          "tipo": "TEXT",
+          "tamano": 2,
+          "nulo": true
+        },
+        {
+          "nombre": "PaisAlfa2",
+          "tipo": "TEXT",
+          "tamano": 2,
+          "nulo": true
+        },
+        {
+          "nombre": "tipoExenta",
+          "tipo": "TEXT",
+          "tamano": 2,
+          "nulo": true
         }
       ],
       "pk": [
@@ -5525,26 +5644,22 @@
         {
           "nombre": "Numero Cobro",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Importe",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Cliente",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Caja",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Lugar Libramiento",
@@ -5555,14 +5670,12 @@
         {
           "nombre": "Factura",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Orden",
           "tipo": "SMALLINT",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Fecha Libramiento",
@@ -5578,8 +5691,7 @@
           "nombre": "Estado",
           "tipo": "TEXT",
           "tamano": 15,
-          "nulo": true,
-          "default": "\"Pagado\""
+          "nulo": true
         },
         {
           "nombre": "Descripcion",
@@ -5608,8 +5720,7 @@
         {
           "nombre": "Codigo Postal Banco",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Poblacion Banco",
@@ -5661,8 +5772,7 @@
         {
           "nombre": "Moneda",
           "tipo": "SMALLINT",
-          "nulo": true,
-          "default": "1"
+          "nulo": true
         },
         {
           "nombre": "Matricula",
@@ -5673,8 +5783,7 @@
         {
           "nombre": "Historico",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "-1"
+          "nulo": true
         },
         {
           "nombre": "IBAN",
@@ -5830,7 +5939,7 @@
       ],
       "indices": [
         {
-          "nombre": "Index_0AC9D2C8_2866_41A0",
+          "nombre": "Index_C202937E_B062_47A2",
           "columnas": [
             "ID"
           ],
@@ -5880,7 +5989,7 @@
       ],
       "indices": [
         {
-          "nombre": "Index_F7F87FAF_10D9_46F5",
+          "nombre": "Index_A9F68CE2_16E6_463C",
           "columnas": [
             "ID"
           ],
@@ -5895,8 +6004,7 @@
         {
           "nombre": "Codigo",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Nombre",
@@ -5913,8 +6021,7 @@
         {
           "nombre": "Año",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Actividad",
@@ -5931,8 +6038,7 @@
         {
           "nombre": "Codigo Postal",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Poblacion",
@@ -6013,26 +6119,22 @@
         {
           "nombre": "Decimales Pesetas",
           "tipo": "BYTE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Decimales Euros",
           "tipo": "BYTE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Decimales Cantidades",
           "tipo": "BYTE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Decimales Descuento",
           "tipo": "BYTE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Avisar Riesgo",
@@ -6058,39 +6160,33 @@
         {
           "nombre": "Caja Recibos",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Caja Pagos",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Estado",
           "tipo": "TEXT",
           "tamano": 15,
-          "nulo": true,
-          "default": "\"Pagado\""
+          "nulo": true
         },
         {
           "nombre": "Cliente Tickets",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Moneda Principal",
           "tipo": "SMALLINT",
-          "nulo": true,
-          "default": "1"
+          "nulo": true
         },
         {
           "nombre": "Cliente Tarjeta",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Tickets Rapidos",
@@ -6106,14 +6202,12 @@
         {
           "nombre": "Preguntar Numero Serie",
           "tipo": "BIT",
-          "nulo": false,
-          "default": "False"
+          "nulo": false
         },
         {
           "nombre": "Cliente Notas",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Licencia",
@@ -6162,8 +6256,7 @@
         {
           "nombre": "Codigo",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Nombre",
@@ -6180,8 +6273,7 @@
         {
           "nombre": "Codigo Postal",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Poblacion",
@@ -6240,8 +6332,7 @@
         {
           "nombre": "Precio Hora",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Registro",
@@ -6269,8 +6360,7 @@
         {
           "nombre": "Codigo Postal Banco",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Poblacion Banco",
@@ -6346,8 +6436,7 @@
         {
           "nombre": "Comision",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         }
       ],
       "pk": [
@@ -6393,8 +6482,7 @@
         {
           "nombre": "Codigo",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Nombre",
@@ -6411,8 +6499,7 @@
         {
           "nombre": "Codigo Postal",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Poblacion",
@@ -6471,8 +6558,7 @@
         {
           "nombre": "Precio Hora",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Registro",
@@ -6500,8 +6586,7 @@
         {
           "nombre": "Codigo Postal Banco",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Poblacion Banco",
@@ -6577,8 +6662,7 @@
         {
           "nombre": "Coste Hora",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "IBAN",
@@ -6648,9 +6732,114 @@
       "nombre": "Errores de pegado",
       "columnas": [
         {
-          "nombre": "Campo0",
-          "tipo": "TEXT",
+          "nombre": "Codigo",
+          "tipo": "INTEGER",
           "nulo": true
+        },
+        {
+          "nombre": "Descripcion",
+          "tipo": "TEXT",
+          "tamano": 255,
+          "nulo": true
+        },
+        {
+          "nombre": "Fichero",
+          "tipo": "TEXT",
+          "tamano": 255,
+          "nulo": true
+        },
+        {
+          "nombre": "Ancho",
+          "tipo": "SINGLE",
+          "nulo": true
+        },
+        {
+          "nombre": "Alto",
+          "tipo": "SINGLE",
+          "nulo": true
+        },
+        {
+          "nombre": "Alto Cabecera",
+          "tipo": "SINGLE",
+          "nulo": true
+        },
+        {
+          "nombre": "Alto Pie",
+          "tipo": "SINGLE",
+          "nulo": true
+        },
+        {
+          "nombre": "Detalle",
+          "tipo": "BIT",
+          "nulo": false
+        },
+        {
+          "nombre": "Ticket",
+          "tipo": "BIT",
+          "nulo": false
+        },
+        {
+          "nombre": "Archivo Imagen",
+          "tipo": "TEXT",
+          "tamano": 255,
+          "nulo": true
+        },
+        {
+          "nombre": "Horizontal Imagen",
+          "tipo": "SINGLE",
+          "nulo": true
+        },
+        {
+          "nombre": "Vertical Imagen",
+          "tipo": "SINGLE",
+          "nulo": true
+        },
+        {
+          "nombre": "Pagina Predeterminada",
+          "tipo": "BIT",
+          "nulo": false
+        },
+        {
+          "nombre": "Longitud Descripcion",
+          "tipo": "INTEGER",
+          "nulo": true
+        },
+        {
+          "nombre": "Archivo Imagen 2",
+          "tipo": "TEXT",
+          "tamano": 255,
+          "nulo": true
+        },
+        {
+          "nombre": "Horizontal Imagen 2",
+          "tipo": "SINGLE",
+          "nulo": true
+        },
+        {
+          "nombre": "Vertical Imagen 2",
+          "tipo": "SINGLE",
+          "nulo": true
+        },
+        {
+          "nombre": "Archivo Imagen 3",
+          "tipo": "TEXT",
+          "tamano": 255,
+          "nulo": true
+        },
+        {
+          "nombre": "Horizontal Imagen 3",
+          "tipo": "SINGLE",
+          "nulo": true
+        },
+        {
+          "nombre": "Vertical Imagen 3",
+          "tipo": "SINGLE",
+          "nulo": true
+        },
+        {
+          "nombre": "Dos Copias Pagina",
+          "tipo": "BIT",
+          "nulo": false
         }
       ]
     },
@@ -6691,8 +6880,7 @@
         {
           "nombre": "Codigo",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Nombre",
@@ -6708,51 +6896,43 @@
         {
           "nombre": "Descripcion Centrada",
           "tipo": "BIT",
-          "nulo": false,
-          "default": "False"
+          "nulo": false
         },
         {
           "nombre": "Subrayado",
           "tipo": "BIT",
-          "nulo": false,
-          "default": "False"
+          "nulo": false
         },
         {
           "nombre": "Cursiva",
           "tipo": "BIT",
-          "nulo": false,
-          "default": "False"
+          "nulo": false
         },
         {
           "nombre": "Negrita",
           "tipo": "BIT",
-          "nulo": false,
-          "default": "False"
+          "nulo": false
         },
         {
           "nombre": "Tamaño",
           "tipo": "SMALLINT",
-          "nulo": true,
-          "default": "9"
+          "nulo": true
         },
         {
           "nombre": "Fuente",
           "tipo": "TEXT",
           "tamano": 30,
-          "nulo": true,
-          "default": "\"Arial\""
+          "nulo": true
         },
         {
           "nombre": "Color Texto",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Color Fondo",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "-2147483633"
+          "nulo": true
         },
         {
           "nombre": "Archivo Imagen",
@@ -6789,14 +6969,12 @@
         {
           "nombre": "Codigo",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Numero Pagos",
           "tipo": "SMALLINT",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Nombre",
@@ -6807,152 +6985,127 @@
         {
           "nombre": "Dias Pago 1",
           "tipo": "SMALLINT",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Porcentaje Pago 1",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Dias Pago 2",
           "tipo": "SMALLINT",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Porcentaje Pago 2",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Dias Pago 3",
           "tipo": "SMALLINT",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Porcentaje Pago 3",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Dias Pago 4",
           "tipo": "SMALLINT",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Porcentaje Pago 4",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Dias Pago 5",
           "tipo": "SMALLINT",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Porcentaje Pago 5",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Dias Pago 6",
           "tipo": "SMALLINT",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Porcentaje Pago 6",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Dias Pago 7",
           "tipo": "SMALLINT",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Porcentaje Pago 7",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Dias Pago 8",
           "tipo": "SMALLINT",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Porcentaje Pago 8",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Dias Pago 9",
           "tipo": "SMALLINT",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Porcentaje Pago 9",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Dias Pago 10",
           "tipo": "SMALLINT",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Porcentaje Pago 10",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Dias Pago 11",
           "tipo": "SMALLINT",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Porcentaje Pago 11",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Dias Pago 12",
           "tipo": "SMALLINT",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Porcentaje Pago 12",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Mostrar en TPV",
           "tipo": "BIT",
-          "nulo": false,
-          "default": "False"
+          "nulo": false
         }
       ],
       "pk": [
@@ -6983,8 +7136,7 @@
         {
           "nombre": "Codigo",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Descripcion",
@@ -7001,32 +7153,27 @@
         {
           "nombre": "Ancho",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Alto",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Alto Cabecera",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Alto Pie",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Detalle",
           "tipo": "BIT",
-          "nulo": false,
-          "default": "No"
+          "nulo": false
         },
         {
           "nombre": "Archivo Imagen",
@@ -7037,14 +7184,12 @@
         {
           "nombre": "Horizontal Imagen",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Vertical Imagen",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Sin Cabecera",
@@ -7054,26 +7199,22 @@
         {
           "nombre": "Pagina Predeterminada",
           "tipo": "BIT",
-          "nulo": false,
-          "default": "False"
+          "nulo": false
         },
         {
           "nombre": "Incluir Matricula",
           "tipo": "BIT",
-          "nulo": false,
-          "default": "False"
+          "nulo": false
         },
         {
           "nombre": "Longitud Descripcion",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Impresion Horizontal",
           "tipo": "BIT",
-          "nulo": false,
-          "default": "False"
+          "nulo": false
         },
         {
           "nombre": "Archivo Imagen 2",
@@ -7084,14 +7225,12 @@
         {
           "nombre": "Horizontal Imagen 2",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Vertical Imagen 2",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Archivo Imagen 3",
@@ -7102,20 +7241,17 @@
         {
           "nombre": "Horizontal Imagen 3",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Vertical Imagen 3",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Dos Copias Pagina",
           "tipo": "BIT",
-          "nulo": false,
-          "default": "False"
+          "nulo": false
         },
         {
           "nombre": "Ticket",
@@ -7131,8 +7267,7 @@
         {
           "nombre": "dobleCara",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "urlQr",
@@ -7183,8 +7318,7 @@
         {
           "nombre": "Codigo",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Descripcion",
@@ -7201,92 +7335,77 @@
         {
           "nombre": "Tamaño Pagina Ancho",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Tamaño Pagina Alto",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Tamaño Etiqueta Ancho",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Tamaño Etiqueta Alto",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Margen Pagina Superior",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Margen Pagina Inferior",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Margen Pagina Izquierdo",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Margen Pagina Derecho",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Margen Etiqueta Superior",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Margen Etiqueta Inferior",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Margen Etiqueta Izquierdo",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Margen Etiqueta Derecho",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Distancia Etiqueta Horizontal",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Distancia Etiqueta Vertical",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Pagina Predeterminada",
           "tipo": "BIT",
-          "nulo": false,
-          "default": "False"
+          "nulo": false
         },
         {
           "nombre": "Archivo Imagen 1",
@@ -7297,14 +7416,12 @@
         {
           "nombre": "Horizontal Imagen 1",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Vertical Imagen 1",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Archivo Imagen 2",
@@ -7315,14 +7432,12 @@
         {
           "nombre": "Horizontal Imagen 2",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Vertical Imagen 2",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Archivo Imagen 3",
@@ -7333,20 +7448,17 @@
         {
           "nombre": "Horizontal Imagen 3",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Vertical Imagen 3",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Longitud Descripcion",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         }
       ],
       "pk": [
@@ -7377,8 +7489,7 @@
         {
           "nombre": "Codigo",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Descripcion",
@@ -7395,14 +7506,12 @@
         {
           "nombre": "Ancho",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Alto",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Archivo Imagen 1",
@@ -7413,14 +7522,12 @@
         {
           "nombre": "Horizontal Imagen 1",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Vertical Imagen 1",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Archivo Imagen 2",
@@ -7431,14 +7538,12 @@
         {
           "nombre": "Horizontal Imagen 2",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Vertical Imagen 2",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Archivo Imagen 3",
@@ -7449,20 +7554,17 @@
         {
           "nombre": "Horizontal Imagen 3",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Vertical Imagen 3",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Pagina Predeterminada",
           "tipo": "BIT",
-          "nulo": false,
-          "default": "False"
+          "nulo": false
         }
       ],
       "pk": [
@@ -7505,8 +7607,7 @@
         {
           "nombre": "Linea",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Foto",
@@ -7545,8 +7646,7 @@
         {
           "nombre": "Numero Gasto",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Fecha",
@@ -7556,14 +7656,12 @@
         {
           "nombre": "Importe",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Caja",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Causante",
@@ -7585,8 +7683,7 @@
         {
           "nombre": "Moneda",
           "tipo": "SMALLINT",
-          "nulo": true,
-          "default": "1"
+          "nulo": true
         },
         {
           "nombre": "Matricula",
@@ -7597,8 +7694,7 @@
         {
           "nombre": "Historico",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "-1"
+          "nulo": true
         }
       ],
       "pk": [
@@ -7624,6 +7720,220 @@
       ]
     },
     {
+      "nombre": "gestionVale",
+      "columnas": [
+        {
+          "nombre": "Numero",
+          "tipo": "INTEGER",
+          "nulo": false
+        },
+        {
+          "nombre": "Serie",
+          "tipo": "TEXT",
+          "tamano": 5,
+          "nulo": true
+        },
+        {
+          "nombre": "Fecha",
+          "tipo": "DATETIME",
+          "nulo": true
+        },
+        {
+          "nombre": "Hora",
+          "tipo": "DATETIME",
+          "nulo": true
+        },
+        {
+          "nombre": "Caja",
+          "tipo": "INTEGER",
+          "nulo": true
+        },
+        {
+          "nombre": "Dependiente",
+          "tipo": "INTEGER",
+          "nulo": true
+        },
+        {
+          "nombre": "DocOrigen",
+          "tipo": "INTEGER",
+          "nulo": true
+        },
+        {
+          "nombre": "TipoDocOrigen",
+          "tipo": "TEXT",
+          "tamano": 50,
+          "nulo": true
+        },
+        {
+          "nombre": "Cliente",
+          "tipo": "INTEGER",
+          "nulo": true
+        },
+        {
+          "nombre": "ImporteTotal",
+          "tipo": "DOUBLE",
+          "nulo": true
+        },
+        {
+          "nombre": "SaldoRestante",
+          "tipo": "DOUBLE",
+          "nulo": true
+        },
+        {
+          "nombre": "Estado",
+          "tipo": "TEXT",
+          "tamano": 15,
+          "nulo": true
+        },
+        {
+          "nombre": "FechaCaducidad",
+          "tipo": "DATETIME",
+          "nulo": true
+        },
+        {
+          "nombre": "TicketOriginal",
+          "tipo": "INTEGER",
+          "nulo": true
+        },
+        {
+          "nombre": "Observaciones",
+          "tipo": "TEXT",
+          "nulo": true
+        }
+      ],
+      "pk": [
+        "Numero"
+      ],
+      "indices": [
+        {
+          "nombre": "Index_181C13B8_AF2D_4424",
+          "columnas": [
+            "Numero"
+          ],
+          "unico": true,
+          "primario": true
+        }
+      ]
+    },
+    {
+      "nombre": "gestionValeArticulos",
+      "columnas": [
+        {
+          "nombre": "ID",
+          "tipo": "INTEGER",
+          "nulo": false
+        },
+        {
+          "nombre": "Numero",
+          "tipo": "INTEGER",
+          "nulo": true
+        },
+        {
+          "nombre": "Linea",
+          "tipo": "INTEGER",
+          "nulo": true
+        },
+        {
+          "nombre": "Articulo",
+          "tipo": "TEXT",
+          "tamano": 30,
+          "nulo": true
+        },
+        {
+          "nombre": "Descripcion",
+          "tipo": "TEXT",
+          "tamano": 255,
+          "nulo": true
+        },
+        {
+          "nombre": "Cantidad",
+          "tipo": "DOUBLE",
+          "nulo": true
+        },
+        {
+          "nombre": "Precio",
+          "tipo": "DOUBLE",
+          "nulo": true
+        },
+        {
+          "nombre": "IVA",
+          "tipo": "DOUBLE",
+          "nulo": true
+        }
+      ],
+      "pk": [
+        "ID"
+      ],
+      "indices": [
+        {
+          "nombre": "Index_FC9E4569_2AE2_4D6A",
+          "columnas": [
+            "ID"
+          ],
+          "unico": true,
+          "primario": true
+        }
+      ]
+    },
+    {
+      "nombre": "gestionValeUsos",
+      "columnas": [
+        {
+          "nombre": "ID",
+          "tipo": "INTEGER",
+          "nulo": false
+        },
+        {
+          "nombre": "Numero",
+          "tipo": "INTEGER",
+          "nulo": true
+        },
+        {
+          "nombre": "Linea",
+          "tipo": "INTEGER",
+          "nulo": true
+        },
+        {
+          "nombre": "TicketUso",
+          "tipo": "INTEGER",
+          "nulo": true
+        },
+        {
+          "nombre": "Fecha",
+          "tipo": "DATETIME",
+          "nulo": true
+        },
+        {
+          "nombre": "Hora",
+          "tipo": "DATETIME",
+          "nulo": true
+        },
+        {
+          "nombre": "ImporteConsumido",
+          "tipo": "DOUBLE",
+          "nulo": true
+        },
+        {
+          "nombre": "SaldoTrasUso",
+          "tipo": "DOUBLE",
+          "nulo": true
+        }
+      ],
+      "pk": [
+        "ID"
+      ],
+      "indices": [
+        {
+          "nombre": "Index_3B6C0BEC_0D9C_407F",
+          "columnas": [
+            "ID"
+          ],
+          "unico": true,
+          "primario": true
+        }
+      ]
+    },
+    {
       "nombre": "Histórico Cierres Caja",
       "columnas": [
         {
@@ -7644,68 +7954,57 @@
         {
           "nombre": "Suma Tickets Efectivo",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Suma Tickets Tarjeta",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Suma Recibos Clientes",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Suma Ingresos",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Suma Pagos Proveed",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Suma Pagos Repre",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Suma Pagos Depend",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Suma Gastos",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Cobros N Venta",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Pagos N Compra",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Saldo Inicial Caja",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Total",
@@ -7715,8 +8014,7 @@
         {
           "nombre": "Importe caja",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Dependiente",
@@ -7921,19 +8219,19 @@
         {
           "nombre": "Documento",
           "tipo": "TEXT",
-          "tamano": 255,
+          "tamano": 40,
           "nulo": true
         },
         {
           "nombre": "RazonSocial",
           "tipo": "TEXT",
-          "tamano": 255,
+          "tamano": 80,
           "nulo": true
         },
         {
           "nombre": "Domicilio",
           "tipo": "TEXT",
-          "tamano": 255,
+          "tamano": 40,
           "nulo": true
         },
         {
@@ -8034,7 +8332,7 @@
       ],
       "indices": [
         {
-          "nombre": "Index_AEFC85ED_560B_4570",
+          "nombre": "Index_5CD5D975_CB4B_4BF7",
           "columnas": [
             "ID"
           ],
@@ -8278,7 +8576,7 @@
       ],
       "indices": [
         {
-          "nombre": "Index_BF917767_A928_4E82",
+          "nombre": "Index_D4A5B1A6_7F12_4159",
           "columnas": [
             "ID"
           ],
@@ -8400,7 +8698,7 @@
       ],
       "indices": [
         {
-          "nombre": "Index_2937E167_D2DC_4162",
+          "nombre": "Index_235965BA_1D25_4E8F",
           "columnas": [
             "ID"
           ],
@@ -8640,7 +8938,7 @@
       ],
       "indices": [
         {
-          "nombre": "Index_5B1BD81B_91BA_4096",
+          "nombre": "Index_4C3E9273_8D69_4409",
           "columnas": [
             "ID"
           ],
@@ -8655,8 +8953,7 @@
         {
           "nombre": "Numero Ingreso",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Fecha",
@@ -8666,14 +8963,12 @@
         {
           "nombre": "Importe",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Caja",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Causante",
@@ -8695,8 +8990,7 @@
         {
           "nombre": "Moneda",
           "tipo": "SMALLINT",
-          "nulo": true,
-          "default": "1"
+          "nulo": true
         },
         {
           "nombre": "Matricula",
@@ -8707,8 +9001,7 @@
         {
           "nombre": "Historico",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "-1"
+          "nulo": true
         }
       ],
       "pk": [
@@ -8739,14 +9032,12 @@
         {
           "nombre": "Numero",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Linea",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Articulo",
@@ -8763,38 +9054,32 @@
         {
           "nombre": "Coste",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Cantidad",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Precio",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Descuento",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "IVA",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "RE",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Matricula",
@@ -8854,14 +9139,12 @@
         {
           "nombre": "Numero",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Linea",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Articulo",
@@ -8878,44 +9161,37 @@
         {
           "nombre": "Coste",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Cantidad",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Precio",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Descuento",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "IVA",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "RE",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Empleado",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Numero Serie",
@@ -8969,14 +9245,12 @@
         {
           "nombre": "Numero",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Linea",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Articulo",
@@ -8993,38 +9267,32 @@
         {
           "nombre": "Coste",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Cantidad",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Precio",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Descuento",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "IVA",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "RE",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Matricula",
@@ -9084,14 +9352,12 @@
         {
           "nombre": "Numero",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Linea",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Articulo",
@@ -9108,44 +9374,37 @@
         {
           "nombre": "Coste",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Cantidad",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Precio",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Descuento",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "IVA",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "RE",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Empleado",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Numero Serie",
@@ -9199,14 +9458,12 @@
         {
           "nombre": "Numero",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Linea",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Articulo",
@@ -9223,44 +9480,37 @@
         {
           "nombre": "Coste",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Cantidad",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Precio",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Descuento",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "IVA",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "RE",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Empleado",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Numero Serie",
@@ -9314,14 +9564,12 @@
         {
           "nombre": "Numero",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Linea",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Articulo",
@@ -9338,38 +9586,32 @@
         {
           "nombre": "Coste",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Cantidad",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Precio",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Descuento",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "IVA",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "RE",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Matricula",
@@ -9429,14 +9671,12 @@
         {
           "nombre": "Numero",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Linea",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Articulo",
@@ -9453,44 +9693,37 @@
         {
           "nombre": "Coste",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Cantidad",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Precio",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Descuento",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "IVA",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "RE",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Empleado",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Numero Serie",
@@ -9544,14 +9777,12 @@
         {
           "nombre": "Numero",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Linea",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Articulo",
@@ -9568,44 +9799,37 @@
         {
           "nombre": "Coste",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Cantidad",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Precio",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Descuento",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "IVA",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "RE",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Empleado",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Numero Serie",
@@ -9627,13 +9851,15 @@
         }
       ],
       "pk": [
-        "Numero"
+        "Numero",
+        "Linea"
       ],
       "indices": [
         {
-          "nombre": "LFS_NUM",
+          "nombre": "LAV_NUM",
           "columnas": [
-            "Numero"
+            "Numero",
+            "Linea"
           ],
           "unico": true,
           "primario": true
@@ -9654,14 +9880,12 @@
         {
           "nombre": "Numero",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Linea",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Articulo",
@@ -9678,38 +9902,32 @@
         {
           "nombre": "Coste",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Cantidad",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Precio",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Descuento",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "IVA",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "RE",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Matricula",
@@ -9769,14 +9987,12 @@
         {
           "nombre": "Numero",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Linea",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Articulo",
@@ -9787,8 +10003,7 @@
         {
           "nombre": "Coste",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Descripcion",
@@ -9799,38 +10014,32 @@
         {
           "nombre": "Cantidad",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Precio",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Descuento",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "IVA",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "RE",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Empleado",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Numero Serie",
@@ -9884,14 +10093,12 @@
         {
           "nombre": "Numero",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Linea",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Articulo",
@@ -9908,44 +10115,37 @@
         {
           "nombre": "Coste",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Cantidad",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Precio",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Descuento",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "IVA",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "RE",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Empleado",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Numero Serie",
@@ -9988,14 +10188,12 @@
         {
           "nombre": "Numero",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Linea",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Articulo",
@@ -10012,38 +10210,32 @@
         {
           "nombre": "Coste",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Cantidad",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Precio",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Descuento",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "IVA",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "RE",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Matricula",
@@ -10103,14 +10295,12 @@
         {
           "nombre": "Numero",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Linea",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Articulo",
@@ -10127,44 +10317,37 @@
         {
           "nombre": "Coste",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Cantidad",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Precio",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Descuento",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "IVA",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "RE",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Empleado",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Numero Serie",
@@ -10218,14 +10401,12 @@
         {
           "nombre": "Codigo",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Linea",
           "tipo": "SMALLINT",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Talla",
@@ -10242,8 +10423,7 @@
         {
           "nombre": "Cantidad",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Notas",
@@ -10254,20 +10434,17 @@
         {
           "nombre": "Precio Exacto",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Porcentaje Diferencia Precio",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Importe Diferencia Precio",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         }
       ],
       "pk": [
@@ -10292,14 +10469,12 @@
         {
           "nombre": "Numero",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Linea",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Articulo",
@@ -10316,44 +10491,37 @@
         {
           "nombre": "Coste",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Cantidad",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Precio",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Descuento",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "IVA",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "RE",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Empleado",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Numero Serie",
@@ -10407,14 +10575,12 @@
         {
           "nombre": "Numero",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Linea",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Articulo",
@@ -10425,8 +10591,7 @@
         {
           "nombre": "Coste",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Descripcion",
@@ -10449,32 +10614,27 @@
         {
           "nombre": "Cantidad",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Precio",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Descuento",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "IVA",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "RE",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Empleado",
@@ -10504,14 +10664,12 @@
         {
           "nombre": "Numero",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Linea",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Articulo",
@@ -10522,8 +10680,7 @@
         {
           "nombre": "Coste",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Descripcion",
@@ -10535,45 +10692,38 @@
           "nombre": "Talla",
           "tipo": "TEXT",
           "tamano": 15,
-          "nulo": true,
-          "default": "10"
+          "nulo": true
         },
         {
           "nombre": "Color",
           "tipo": "TEXT",
           "tamano": 15,
-          "nulo": true,
-          "default": "10"
+          "nulo": true
         },
         {
           "nombre": "Cantidad",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Precio",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Descuento",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "IVA",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "RE",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Numero Serie",
@@ -10651,7 +10801,7 @@
       ],
       "indices": [
         {
-          "nombre": "Index_053700D9_973B_4FE2",
+          "nombre": "Index_3607B713_D8D2_42C2",
           "columnas": [
             "ID"
           ],
@@ -10681,14 +10831,12 @@
         {
           "nombre": "Operacion",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Camarero",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Ticket",
@@ -10710,26 +10858,22 @@
         {
           "nombre": "Cantidad",
           "tipo": "DOUBLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "pvp",
           "tipo": "DOUBLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Modificado",
           "tipo": "DOUBLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Total",
           "tipo": "DOUBLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         }
       ],
       "pk": [
@@ -10766,7 +10910,7 @@
       ],
       "indices": [
         {
-          "nombre": "Index_FC3998A4_5005_456C",
+          "nombre": "Index_E1D4B974_7677_4D8F",
           "columnas": [
             "ID"
           ],
@@ -10795,7 +10939,7 @@
       ],
       "indices": [
         {
-          "nombre": "Index_ED9F9925_6647_428A",
+          "nombre": "Index_002CD62C_8106_4B4E",
           "columnas": [
             "ID"
           ],
@@ -10810,8 +10954,7 @@
         {
           "nombre": "Codigo",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Nombre",
@@ -10822,26 +10965,22 @@
         {
           "nombre": "Importe",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Descuento",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Cantidad 1",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Cantidad 2",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Validez",
@@ -10861,8 +11000,7 @@
         {
           "nombre": "Dia Semana",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Texto Mensaje",
@@ -10873,8 +11011,7 @@
         {
           "nombre": "Mensaje Oferta",
           "tipo": "BIT",
-          "nulo": false,
-          "default": "False"
+          "nulo": false
         }
       ],
       "pk": [
@@ -10952,26 +11089,22 @@
         {
           "nombre": "Numero Pago",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Importe",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Dependiente",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Caja",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Lugar Libramiento",
@@ -10982,14 +11115,12 @@
         {
           "nombre": "Parte Trabajo",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Orden",
           "tipo": "SMALLINT",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Fecha Libramiento",
@@ -11005,8 +11136,7 @@
           "nombre": "Estado",
           "tipo": "TEXT",
           "tamano": 15,
-          "nulo": true,
-          "default": "\"Pagado\""
+          "nulo": true
         },
         {
           "nombre": "Descripcion",
@@ -11035,8 +11165,7 @@
         {
           "nombre": "Codigo Postal Banco",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Poblacion Banco",
@@ -11088,14 +11217,12 @@
         {
           "nombre": "Moneda",
           "tipo": "SMALLINT",
-          "nulo": true,
-          "default": "1"
+          "nulo": true
         },
         {
           "nombre": "Historico",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "-1"
+          "nulo": true
         },
         {
           "nombre": "IBAN",
@@ -11132,14 +11259,12 @@
         {
           "nombre": "Numero Pago",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Importe",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Matricula",
@@ -11150,14 +11275,12 @@
         {
           "nombre": "Empleado",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Caja",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Lugar Libramiento",
@@ -11168,14 +11291,12 @@
         {
           "nombre": "Parte Trabajo",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Orden",
           "tipo": "SMALLINT",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Fecha Libramiento",
@@ -11191,8 +11312,7 @@
           "nombre": "Estado",
           "tipo": "TEXT",
           "tamano": 15,
-          "nulo": true,
-          "default": "\"Pagado\""
+          "nulo": true
         },
         {
           "nombre": "Descripcion",
@@ -11221,8 +11341,7 @@
         {
           "nombre": "Codigo Postal Banco",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Poblacion Banco",
@@ -11274,14 +11393,12 @@
         {
           "nombre": "Moneda",
           "tipo": "SMALLINT",
-          "nulo": true,
-          "default": "1"
+          "nulo": true
         },
         {
           "nombre": "Historico",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "-1"
+          "nulo": true
         },
         {
           "nombre": "IBAN",
@@ -11318,26 +11435,22 @@
         {
           "nombre": "Numero Pago",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Importe",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Proveedor",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Caja",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Lugar Libramiento",
@@ -11348,14 +11461,12 @@
         {
           "nombre": "Factura",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Orden",
           "tipo": "SMALLINT",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Fecha Libramiento",
@@ -11371,8 +11482,7 @@
           "nombre": "Estado",
           "tipo": "TEXT",
           "tamano": 15,
-          "nulo": true,
-          "default": "\"Pagado\""
+          "nulo": true
         },
         {
           "nombre": "Descripcion",
@@ -11401,8 +11511,7 @@
         {
           "nombre": "Codigo Postal Banco",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Poblacion Banco",
@@ -11454,8 +11563,7 @@
         {
           "nombre": "Moneda",
           "tipo": "SMALLINT",
-          "nulo": true,
-          "default": "1"
+          "nulo": true
         },
         {
           "nombre": "Matricula",
@@ -11466,8 +11574,7 @@
         {
           "nombre": "Historico",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "-1"
+          "nulo": true
         },
         {
           "nombre": "IBAN",
@@ -11504,26 +11611,22 @@
         {
           "nombre": "Numero Pago",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Importe",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Representante",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Caja",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Lugar Libramiento",
@@ -11534,14 +11637,12 @@
         {
           "nombre": "Factura",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Orden",
           "tipo": "SMALLINT",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Fecha Libramiento",
@@ -11557,8 +11658,7 @@
           "nombre": "Estado",
           "tipo": "TEXT",
           "tamano": 15,
-          "nulo": true,
-          "default": "\"Pagado\""
+          "nulo": true
         },
         {
           "nombre": "Descripcion",
@@ -11587,8 +11687,7 @@
         {
           "nombre": "Codigo Postal Banco",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Poblacion Banco",
@@ -11640,8 +11739,7 @@
         {
           "nombre": "Moneda",
           "tipo": "SMALLINT",
-          "nulo": true,
-          "default": "1"
+          "nulo": true
         },
         {
           "nombre": "Matricula",
@@ -11652,8 +11750,7 @@
         {
           "nombre": "Historico",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "-1"
+          "nulo": true
         },
         {
           "nombre": "IBAN",
@@ -11690,26 +11787,22 @@
         {
           "nombre": "Numero Pago",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Importe",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Proveedor",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Caja",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Lugar Libramiento",
@@ -11720,14 +11813,12 @@
         {
           "nombre": "Factura",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Orden",
           "tipo": "SMALLINT",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Fecha Libramiento",
@@ -11743,8 +11834,7 @@
           "nombre": "Estado",
           "tipo": "TEXT",
           "tamano": 15,
-          "nulo": true,
-          "default": "\"Pagado\""
+          "nulo": true
         },
         {
           "nombre": "Descripcion",
@@ -11773,8 +11863,7 @@
         {
           "nombre": "Codigo Postal Banco",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Poblacion Banco",
@@ -11826,8 +11915,7 @@
         {
           "nombre": "Moneda",
           "tipo": "SMALLINT",
-          "nulo": true,
-          "default": "1"
+          "nulo": true
         },
         {
           "nombre": "Matricula",
@@ -11838,8 +11926,7 @@
         {
           "nombre": "Historico",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "-1"
+          "nulo": true
         },
         {
           "nombre": "IBAN",
@@ -11886,8 +11973,7 @@
         {
           "nombre": "Empleado",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Matricula",
@@ -11898,20 +11984,17 @@
         {
           "nombre": "Tipo de Trabajo",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Horas",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Precio",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Descripcion",
@@ -11921,8 +12004,7 @@
         {
           "nombre": "Moneda",
           "tipo": "SMALLINT",
-          "nulo": true,
-          "default": "1"
+          "nulo": true
         },
         {
           "nombre": "Documento",
@@ -11996,20 +12078,17 @@
         {
           "nombre": "Proveedor",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Precio",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Descuento",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         }
       ],
       "indices": [
@@ -12036,20 +12115,17 @@
         {
           "nombre": "Cliente",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Precio",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Descuento",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         }
       ],
       "indices": [
@@ -12070,8 +12146,7 @@
         {
           "nombre": "Codigo",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Razon Social",
@@ -12100,8 +12175,7 @@
         {
           "nombre": "Codigo Postal",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Poblacion",
@@ -12124,7 +12198,7 @@
         {
           "nombre": "Telefono 1",
           "tipo": "TEXT",
-          "tamano": 170,
+          "tamano": 17,
           "nulo": true
         },
         {
@@ -12189,39 +12263,33 @@
         {
           "nombre": "Tabla Descuento",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Descuento PP",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Impuestos",
           "tipo": "TEXT",
           "tamano": 1,
-          "nulo": true,
-          "default": "\"I\""
+          "nulo": true
         },
         {
           "nombre": "Forma de Pago",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Dia Pago 1",
           "tipo": "SMALLINT",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Dia Pago 2",
           "tipo": "SMALLINT",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Banco",
@@ -12238,8 +12306,7 @@
         {
           "nombre": "Codigo Postal Banco",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Poblacion Banco",
@@ -12287,8 +12354,7 @@
           "nombre": "Portes",
           "tipo": "TEXT",
           "tamano": 1,
-          "nulo": true,
-          "default": "\"D\""
+          "nulo": true
         },
         {
           "nombre": "Domicilio Envio",
@@ -12299,8 +12365,7 @@
         {
           "nombre": "Codigo Postal Envio",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Poblacion Envio",
@@ -12328,8 +12393,7 @@
         {
           "nombre": "Riesgo",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Aviso",
@@ -12390,26 +12454,22 @@
         {
           "nombre": "Numero Recibo",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Importe",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Cliente",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Caja",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Lugar Libramiento",
@@ -12420,14 +12480,12 @@
         {
           "nombre": "Factura",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Orden",
           "tipo": "SMALLINT",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Fecha Libramiento",
@@ -12443,8 +12501,7 @@
           "nombre": "Estado",
           "tipo": "TEXT",
           "tamano": 15,
-          "nulo": true,
-          "default": "\"Pagado\""
+          "nulo": true
         },
         {
           "nombre": "Descripcion",
@@ -12473,8 +12530,7 @@
         {
           "nombre": "Codigo Postal Banco",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Poblacion Banco",
@@ -12526,8 +12582,7 @@
         {
           "nombre": "Moneda",
           "tipo": "SMALLINT",
-          "nulo": true,
-          "default": "1"
+          "nulo": true
         },
         {
           "nombre": "Matricula",
@@ -12538,8 +12593,7 @@
         {
           "nombre": "Historico",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "-1"
+          "nulo": true
         },
         {
           "nombre": "IBAN",
@@ -12683,8 +12737,7 @@
         {
           "nombre": "Codigo",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Nombre",
@@ -12701,8 +12754,7 @@
         {
           "nombre": "Codigo Postal",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Poblacion",
@@ -12755,8 +12807,7 @@
         {
           "nombre": "Comision",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Aplicar Comision",
@@ -12789,8 +12840,7 @@
         {
           "nombre": "Codigo Postal Banco",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Poblacion Banco",
@@ -12964,602 +13014,502 @@
         {
           "nombre": "C11",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "C12",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "C13",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "C14",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "C15",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "C21",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "C22",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "C23",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "C24",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "C25",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "C31",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "C32",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "C33",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "C34",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "C35",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "C41",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "C42",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "C43",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "C44",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "C45",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "C51",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "C52",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "C53",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "C54",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "C55",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "C00",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "C01",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "C02",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "C03",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "C04",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "C05",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "C06",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "C07",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "C08",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "C09",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "C10",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "C16",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "C17",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "C18",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "C19",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "C20",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "C26",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "C27",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "C28",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "C29",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "C30",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "C36",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "C37",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "C38",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "C39",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "C40",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "C46",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "C47",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "C48",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "C49",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "C50",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "C56",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "C57",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "C58",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "C59",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "C60",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "C61",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "C62",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "C63",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "C64",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "C65",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "C66",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "C67",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "C68",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "C69",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "C70",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "C71",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "C72",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "C73",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "C74",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "C75",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "C76",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "C77",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "C78",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "C79",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "C80",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "C81",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "C82",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "C83",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "C84",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "C85",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "C86",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "C87",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "C88",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "C89",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "C90",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "C91",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "C92",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "C93",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "C94",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "C95",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "C96",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "C97",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "C98",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "C99",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         }
       ]
     },
@@ -13574,8 +13524,7 @@
         {
           "nombre": "Linea",
           "tipo": "SMALLINT",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Texto",
@@ -13602,6 +13551,78 @@
       ]
     },
     {
+      "nombre": "Tbai_Cadena",
+      "columnas": [
+        {
+          "nombre": "ID",
+          "tipo": "INTEGER",
+          "nulo": false
+        },
+        {
+          "nombre": "Emisor",
+          "tipo": "TEXT",
+          "tamano": 20,
+          "nulo": true
+        },
+        {
+          "nombre": "Entorno",
+          "tipo": "TEXT",
+          "tamano": 4,
+          "nulo": true
+        },
+        {
+          "nombre": "Serie",
+          "tipo": "TEXT",
+          "tamano": 20,
+          "nulo": true
+        },
+        {
+          "nombre": "Num",
+          "tipo": "TEXT",
+          "tamano": 20,
+          "nulo": true
+        },
+        {
+          "nombre": "Fecha",
+          "tipo": "TEXT",
+          "tamano": 10,
+          "nulo": true
+        },
+        {
+          "nombre": "Huella",
+          "tipo": "TEXT",
+          "nulo": true
+        },
+        {
+          "nombre": "FechaHoraActualizacion",
+          "tipo": "DATETIME",
+          "nulo": true
+        }
+      ],
+      "pk": [
+        "ID"
+      ],
+      "indices": [
+        {
+          "nombre": "Index_3357F24C_6CC7_48BD",
+          "columnas": [
+            "ID"
+          ],
+          "unico": true,
+          "primario": true
+        },
+        {
+          "nombre": "idxTbaiCadena",
+          "columnas": [
+            "Emisor",
+            "Entorno"
+          ],
+          "unico": true,
+          "primario": false
+        }
+      ]
+    },
+    {
       "nombre": "Telefonos",
       "columnas": [
         {
@@ -13613,8 +13634,7 @@
         {
           "nombre": "Linea",
           "tipo": "SMALLINT",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Nombre",
@@ -13693,14 +13713,12 @@
         {
           "nombre": "Numero Factura",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Numero Ticket",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         }
       ]
     },
@@ -13749,8 +13767,7 @@
         {
           "nombre": "Codigo",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Nombre",
@@ -13761,14 +13778,12 @@
         {
           "nombre": "IVA",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Recargo",
           "tipo": "SINGLE",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Observaciones",
@@ -13804,8 +13819,7 @@
         {
           "nombre": "Codigo",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Nombre",
@@ -13921,8 +13935,7 @@
         {
           "nombre": "Cliente",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Tipo Vehiculo",
@@ -14045,32 +14058,27 @@
         {
           "nombre": "Climatizador",
           "tipo": "BIT",
-          "nulo": false,
-          "default": "False"
+          "nulo": false
         },
         {
           "nombre": "Llantas",
           "tipo": "BIT",
-          "nulo": false,
-          "default": "False"
+          "nulo": false
         },
         {
           "nombre": "Radio",
           "tipo": "BIT",
-          "nulo": false,
-          "default": "False"
+          "nulo": false
         },
         {
           "nombre": "Techo",
           "tipo": "BIT",
-          "nulo": false,
-          "default": "False"
+          "nulo": false
         },
         {
           "nombre": "Cuero",
           "tipo": "BIT",
-          "nulo": false,
-          "default": "False"
+          "nulo": false
         },
         {
           "nombre": "Fecha Matriculacion",
@@ -14086,8 +14094,7 @@
         {
           "nombre": "Kilometros Instalacion Correa Distribucion",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Fecha Instalacion Correa Distribucion",
@@ -14211,8 +14218,7 @@
         {
           "nombre": "Codigo",
           "tipo": "INTEGER",
-          "nulo": true,
-          "default": "0"
+          "nulo": true
         },
         {
           "nombre": "Nombre",
