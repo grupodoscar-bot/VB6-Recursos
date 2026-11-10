@@ -1,6 +1,6 @@
 {
   "programa": "tpv",
-  "generado": "2026-07-05",
+  "generado": "2026-11-05",
   "tablas": [
     {
       "nombre": "Accesos Directos",
@@ -9,7 +9,7 @@
           "nombre": "Orden",
           "tipo": "INTEGER",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Comando",
@@ -27,7 +27,7 @@
           "nombre": "Visible",
           "tipo": "BIT",
           "nulo": false,
-          "default": "False"
+          "defecto": "False"
         }
       ],
       "pk": [
@@ -85,13 +85,13 @@
           "nombre": "Dependiente",
           "tipo": "INTEGER",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Linea",
           "tipo": "SMALLINT",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Texto",
@@ -119,7 +119,7 @@
           "nombre": "Linea",
           "tipo": "INTEGER",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Fecha",
@@ -171,31 +171,31 @@
           "nombre": "Familia",
           "tipo": "INTEGER",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Tipo Impuesto",
           "tipo": "INTEGER",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Proveedor 1",
           "tipo": "INTEGER",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Proveedor 2",
           "tipo": "INTEGER",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Proveedor 3",
           "tipo": "INTEGER",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Descripcion Corta",
@@ -218,43 +218,43 @@
           "nombre": "Stock",
           "tipo": "DOUBLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Stock Minimo",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Stock Inicial",
           "tipo": "DOUBLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Stock Maximo",
           "tipo": "DOUBLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Stock Optimo",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Minimo Vender",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Minimo Comprar",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Referencia Proveedor",
@@ -271,55 +271,55 @@
           "nombre": "PVP 1",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "PVP 2",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "PVP 3",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "PVP 4",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "PVP 5",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "PVP 6",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "PVP 7",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "PVP 8",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "PVP 9",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Observaciones",
@@ -336,13 +336,13 @@
           "nombre": "Oferta",
           "tipo": "INTEGER",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Medida",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Unidad Medida",
@@ -354,103 +354,103 @@
           "nombre": "Peso",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Tabla Descuento",
           "tipo": "INTEGER",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Fecha Alta",
           "tipo": "DATETIME",
           "nulo": true,
-          "default": "#12/30/1899#"
+          "defecto": "#12/30/1899#"
         },
         {
           "nombre": "Fecha Caducidad",
           "tipo": "DATETIME",
           "nulo": true,
-          "default": "#12/30/1899#"
+          "defecto": "#12/30/1899#"
         },
         {
           "nombre": "Dias Garantia",
           "tipo": "INTEGER",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Unidades Bulto",
           "tipo": "INTEGER",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Precio Medio Compra",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Ultimo Precio Compra",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Beneficio PVP 1",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Beneficio PVP 2",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Beneficio PVP 3",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Beneficio PVP 4",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Beneficio PVP 5",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Beneficio PVP 6",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Beneficio PVP 7",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Beneficio PVP 8",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Beneficio PVP 9",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Compuesto",
@@ -471,7 +471,7 @@
           "nombre": "Articulo Bascula",
           "tipo": "BIT",
           "nulo": false,
-          "default": "False"
+          "defecto": "False"
         },
         {
           "nombre": "Web",
@@ -483,37 +483,37 @@
           "nombre": "Minimo Vender TPV",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Descripcion Centrada",
           "tipo": "BIT",
           "nulo": false,
-          "default": "False"
+          "defecto": "False"
         },
         {
           "nombre": "Subrayado",
           "tipo": "BIT",
           "nulo": false,
-          "default": "False"
+          "defecto": "False"
         },
         {
           "nombre": "Cursiva",
           "tipo": "BIT",
           "nulo": false,
-          "default": "False"
+          "defecto": "False"
         },
         {
           "nombre": "Negrita",
           "tipo": "BIT",
           "nulo": false,
-          "default": "False"
+          "defecto": "False"
         },
         {
           "nombre": "Tamaño",
           "tipo": "SMALLINT",
           "nulo": true,
-          "default": "9"
+          "defecto": "9"
         },
         {
           "nombre": "Fuente",
@@ -525,13 +525,13 @@
           "nombre": "Color Texto",
           "tipo": "INTEGER",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Color Fondo",
           "tipo": "INTEGER",
           "nulo": true,
-          "default": "-2147483633"
+          "defecto": "-2147483633"
         },
         {
           "nombre": "Referencia Proveedor 2",
@@ -549,19 +549,19 @@
           "nombre": "Precio Compra Proveedor 1",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Precio Compra Proveedor 2",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Precio Compra Proveedor 3",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "CompraRE",
@@ -588,14 +588,14 @@
           "nombre": "Margen Venta",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Tipo Margen Venta",
           "tipo": "TEXT",
           "tamano": 1,
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Baja",
@@ -606,7 +606,7 @@
           "nombre": "Epigrafe",
           "tipo": "INTEGER",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "ventaLocal",
@@ -637,13 +637,13 @@
           "nombre": "Orden",
           "tipo": "INTEGER",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Trazabilidad",
           "tipo": "BIT",
           "nulo": false,
-          "default": "False"
+          "defecto": "False"
         },
         {
           "nombre": "Detalle Componentes",
@@ -709,7 +709,7 @@
           "nombre": "Linea",
           "tipo": "INTEGER",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Referencia",
@@ -727,13 +727,13 @@
           "nombre": "Cantidad",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Precio",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         }
       ],
       "pk": [
@@ -765,7 +765,7 @@
           "nombre": "Linea",
           "tipo": "INTEGER",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Codigo Barras",
@@ -815,7 +815,7 @@
           "nombre": "Linea",
           "tipo": "INTEGER",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Lote",
@@ -832,7 +832,7 @@
           "nombre": "Cantidad",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Notas",
@@ -870,7 +870,7 @@
           "nombre": "Linea",
           "tipo": "INTEGER",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Numero Serie",
@@ -920,7 +920,7 @@
           "nombre": "Linea",
           "tipo": "INTEGER",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Talla",
@@ -938,7 +938,7 @@
           "nombre": "Cantidad",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Notas",
@@ -950,19 +950,19 @@
           "nombre": "Precio Exacto",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Porcentaje Diferencia Precio",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Importe Diferencia Precio",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Codigo Barras",
@@ -981,6 +981,47 @@
           "columnas": [
             "Articulo",
             "Linea"
+          ],
+          "unico": true,
+          "primario": true
+        }
+      ]
+    },
+    {
+      "nombre": "ArticulosEstado",
+      "columnas": [
+        {
+          "nombre": "Referencia",
+          "tipo": "TEXT",
+          "tamano": 50,
+          "nulo": false
+        },
+        {
+          "nombre": "Estado",
+          "tipo": "INTEGER",
+          "nulo": true,
+          "defecto": "0"
+        },
+        {
+          "nombre": "Fecha",
+          "tipo": "DATETIME",
+          "nulo": true
+        },
+        {
+          "nombre": "Quien",
+          "tipo": "TEXT",
+          "tamano": 50,
+          "nulo": true
+        }
+      ],
+      "pk": [
+        "Referencia"
+      ],
+      "indices": [
+        {
+          "nombre": "PK_ArticulosEstado",
+          "columnas": [
+            "Referencia"
           ],
           "unico": true,
           "primario": true
@@ -1030,7 +1071,7 @@
           "nombre": "Numero",
           "tipo": "INTEGER",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Fecha",
@@ -1041,7 +1082,7 @@
           "nombre": "Proveedor",
           "tipo": "INTEGER",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Su Albaran",
@@ -1058,7 +1099,7 @@
           "nombre": "Forma de Pago",
           "tipo": "INTEGER",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Facturado",
@@ -1087,43 +1128,43 @@
           "nombre": "Descuento PP",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Gastos",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Portes",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Moneda",
           "tipo": "SMALLINT",
           "nulo": true,
-          "default": "1"
+          "defecto": "1"
         },
         {
           "nombre": "Pedido Recibido",
           "tipo": "INTEGER",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Retencion",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "EntregaCuenta",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "subido",
@@ -1139,7 +1180,8 @@
         {
           "nombre": "idLin",
           "tipo": "INTEGER",
-          "nulo": false
+          "nulo": false,
+          "auto": true
         }
       ],
       "pk": [
@@ -1173,7 +1215,7 @@
           "nombre": "Cliente",
           "tipo": "INTEGER",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Observaciones",
@@ -1184,13 +1226,13 @@
           "nombre": "Representante",
           "tipo": "INTEGER",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Comision",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Aplicar Comision",
@@ -1202,7 +1244,7 @@
           "nombre": "Forma de Pago",
           "tipo": "INTEGER",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Fecha Caducidad",
@@ -1242,7 +1284,7 @@
           "nombre": "Codigo Postal",
           "tipo": "INTEGER",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Poblacion",
@@ -1290,43 +1332,43 @@
           "nombre": "Descuento PP",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Gastos",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Portes",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Moneda",
           "tipo": "SMALLINT",
           "nulo": true,
-          "default": "1"
+          "defecto": "1"
         },
         {
           "nombre": "Pedido Servido",
           "tipo": "INTEGER",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Dependiente",
           "tipo": "INTEGER",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Retencion",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Pagado",
@@ -1337,7 +1379,7 @@
           "nombre": "EntregaCuenta",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "subido",
@@ -1353,7 +1395,8 @@
         {
           "nombre": "idLin",
           "tipo": "INTEGER",
-          "nulo": false
+          "nulo": false,
+          "auto": true
         }
       ],
       "pk": [
@@ -1377,7 +1420,7 @@
           "nombre": "Numero",
           "tipo": "INTEGER",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Fecha",
@@ -1388,7 +1431,7 @@
           "nombre": "Proveedor",
           "tipo": "INTEGER",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Su Factura",
@@ -1405,7 +1448,7 @@
           "nombre": "Forma de Pago",
           "tipo": "INTEGER",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Facturado",
@@ -1434,43 +1477,43 @@
           "nombre": "Descuento PP",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Gastos",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Portes",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Moneda",
           "tipo": "SMALLINT",
           "nulo": true,
-          "default": "1"
+          "defecto": "1"
         },
         {
           "nombre": "Pedido Recibido",
           "tipo": "INTEGER",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Retencion",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "EntregaCuenta",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "subido",
@@ -1486,7 +1529,8 @@
         {
           "nombre": "idLin",
           "tipo": "INTEGER",
-          "nulo": false
+          "nulo": false,
+          "auto": true
         }
       ],
       "pk": [
@@ -1520,7 +1564,7 @@
           "nombre": "Cliente",
           "tipo": "INTEGER",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Observaciones",
@@ -1531,13 +1575,13 @@
           "nombre": "Representante",
           "tipo": "INTEGER",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Comision",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Aplicar Comision",
@@ -1549,7 +1593,7 @@
           "nombre": "Forma de Pago",
           "tipo": "INTEGER",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Fecha Caducidad",
@@ -1589,7 +1633,7 @@
           "nombre": "Codigo Postal",
           "tipo": "INTEGER",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Poblacion",
@@ -1637,19 +1681,19 @@
           "nombre": "Descuento PP",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Gastos",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Portes",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Cierre Caja",
@@ -1660,31 +1704,31 @@
           "nombre": "Moneda",
           "tipo": "SMALLINT",
           "nulo": true,
-          "default": "1"
+          "defecto": "1"
         },
         {
           "nombre": "Pedido Servido",
           "tipo": "INTEGER",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Dependiente",
           "tipo": "INTEGER",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Retencion",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "EntregaCuenta",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "tbai",
@@ -1749,7 +1793,7 @@
           "tipo": "TEXT",
           "tamano": 1,
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "InversionSujetoPasivo",
@@ -1865,7 +1909,8 @@
         {
           "nombre": "idLin",
           "tipo": "INTEGER",
-          "nulo": false
+          "nulo": false,
+          "auto": true
         },
         {
           "nombre": "tipoExenta",
@@ -1884,7 +1929,7 @@
           "tipo": "TEXT",
           "tamano": 3,
           "nulo": true,
-          "default": "SU"
+          "defecto": "SU"
         },
         {
           "nombre": "FechaEmision",
@@ -1936,6 +1981,11 @@
           "tipo": "TEXT",
           "tamano": 8,
           "nulo": true
+        },
+        {
+          "nombre": "PrestacionServicios",
+          "tipo": "BIT",
+          "nulo": false
         }
       ],
       "pk": [
@@ -1969,7 +2019,7 @@
           "nombre": "Cliente",
           "tipo": "INTEGER",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Observaciones",
@@ -1980,13 +2030,13 @@
           "nombre": "Representante",
           "tipo": "INTEGER",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Comision",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Aplicar Comision",
@@ -1998,7 +2048,7 @@
           "nombre": "Forma de Pago",
           "tipo": "INTEGER",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Fecha Caducidad",
@@ -2038,7 +2088,7 @@
           "nombre": "Codigo Postal",
           "tipo": "INTEGER",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Poblacion",
@@ -2086,43 +2136,43 @@
           "nombre": "Descuento PP",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Gastos",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Portes",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Moneda",
           "tipo": "SMALLINT",
           "nulo": true,
-          "default": "1"
+          "defecto": "1"
         },
         {
           "nombre": "Dependiente",
           "tipo": "INTEGER",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Retencion",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "EntregaCuenta",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "subido",
@@ -2138,7 +2188,8 @@
         {
           "nombre": "idLin",
           "tipo": "INTEGER",
-          "nulo": false
+          "nulo": false,
+          "auto": true
         }
       ],
       "pk": [
@@ -2162,7 +2213,7 @@
           "nombre": "Numero",
           "tipo": "INTEGER",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Fecha",
@@ -2173,7 +2224,7 @@
           "nombre": "Proveedor",
           "tipo": "INTEGER",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Su Factura",
@@ -2190,7 +2241,7 @@
           "nombre": "Forma de Pago",
           "tipo": "INTEGER",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Facturado",
@@ -2219,31 +2270,31 @@
           "nombre": "Descuento PP",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Gastos",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Portes",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Moneda",
           "tipo": "SMALLINT",
           "nulo": true,
-          "default": "1"
+          "defecto": "1"
         },
         {
           "nombre": "Pedido Recibido",
           "tipo": "INTEGER",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Actualizar Precio Venta",
@@ -2254,13 +2305,13 @@
           "nombre": "Retencion",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "EntregaCuenta",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "subido",
@@ -2276,7 +2327,8 @@
         {
           "nombre": "idLin",
           "tipo": "INTEGER",
-          "nulo": false
+          "nulo": false,
+          "auto": true
         }
       ],
       "pk": [
@@ -2310,7 +2362,7 @@
           "nombre": "Cliente",
           "tipo": "INTEGER",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Observaciones",
@@ -2321,13 +2373,13 @@
           "nombre": "Representante",
           "tipo": "INTEGER",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Comision",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Aplicar Comision",
@@ -2339,13 +2391,13 @@
           "nombre": "Forma de Pago",
           "tipo": "INTEGER",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Fecha Caducidad",
           "tipo": "DATETIME",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Realizado por",
@@ -2380,7 +2432,7 @@
           "nombre": "Codigo Postal",
           "tipo": "INTEGER",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Poblacion",
@@ -2428,19 +2480,19 @@
           "nombre": "Descuento PP",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Gastos",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Portes",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Cierre Caja",
@@ -2451,13 +2503,13 @@
           "nombre": "Moneda",
           "tipo": "SMALLINT",
           "nulo": true,
-          "default": "1"
+          "defecto": "1"
         },
         {
           "nombre": "Pedido Servido",
           "tipo": "INTEGER",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Dependiente",
@@ -2468,13 +2520,13 @@
           "nombre": "Retencion",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "EntregaCuenta",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "facOriginal",
@@ -2576,35 +2628,36 @@
         {
           "nombre": "idLin",
           "tipo": "INTEGER",
-          "nulo": false
+          "nulo": false,
+          "auto": true
         },
         {
           "nombre": "tipoExenta",
           "tipo": "TEXT",
           "tamano": 2,
           "nulo": true,
-          "default": "XX"
+          "defecto": "XX"
         },
         {
           "nombre": "tipoSujeta",
           "tipo": "TEXT",
           "tamano": 3,
           "nulo": true,
-          "default": "SU"
+          "defecto": "SU"
         },
         {
           "nombre": "tipoRec",
           "tipo": "TEXT",
           "tamano": 3,
           "nulo": true,
-          "default": "R1"
+          "defecto": "R1"
         },
         {
           "nombre": "tipoRecTipo",
           "tipo": "TEXT",
           "tamano": 12,
           "nulo": true,
-          "default": "Sustitucion"
+          "defecto": "Sustitucion"
         },
         {
           "nombre": "FechaEmision",
@@ -2656,6 +2709,100 @@
           "tipo": "TEXT",
           "tamano": 8,
           "nulo": true
+        },
+        {
+          "nombre": "NumFacturaTBAI",
+          "tipo": "INTEGER",
+          "nulo": true
+        },
+        {
+          "nombre": "Rectificativa",
+          "tipo": "INTEGER",
+          "nulo": true
+        },
+        {
+          "nombre": "Anulada",
+          "tipo": "TEXT",
+          "tamano": 1,
+          "nulo": true
+        },
+        {
+          "nombre": "ExpedienteFace",
+          "tipo": "TEXT",
+          "tamano": 200,
+          "nulo": true
+        },
+        {
+          "nombre": "OperacionFace",
+          "tipo": "TEXT",
+          "tamano": 200,
+          "nulo": true
+        },
+        {
+          "nombre": "EntidadPublica",
+          "tipo": "TEXT",
+          "tamano": 1,
+          "nulo": true
+        },
+        {
+          "nombre": "OficinaContable",
+          "tipo": "TEXT",
+          "tamano": 200,
+          "nulo": true
+        },
+        {
+          "nombre": "OrganoGestor",
+          "tipo": "TEXT",
+          "tamano": 200,
+          "nulo": true
+        },
+        {
+          "nombre": "UnidadTramitadora",
+          "tipo": "TEXT",
+          "tamano": 200,
+          "nulo": true
+        },
+        {
+          "nombre": "Organoproponente",
+          "tipo": "TEXT",
+          "tamano": 200,
+          "nulo": true
+        },
+        {
+          "nombre": "controlada",
+          "tipo": "BIT",
+          "nulo": false
+        },
+        {
+          "nombre": "faceActPeriod",
+          "tipo": "BIT",
+          "nulo": false
+        },
+        {
+          "nombre": "facePeriodIni",
+          "tipo": "DATETIME",
+          "nulo": true
+        },
+        {
+          "nombre": "facePeriodFin",
+          "tipo": "DATETIME",
+          "nulo": true
+        },
+        {
+          "nombre": "faceAdditionalInformation",
+          "tipo": "TEXT",
+          "nulo": true
+        },
+        {
+          "nombre": "IBANFace",
+          "tipo": "TEXT",
+          "tamano": 200,
+          "nulo": true
+        },
+        {
+          "nombre": "PrestacionServicios",
+          "tipo": "BIT",
+          "nulo": false
         }
       ],
       "pk": [
@@ -2689,7 +2836,7 @@
           "nombre": "Cliente",
           "tipo": "INTEGER",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Observaciones",
@@ -2700,13 +2847,13 @@
           "nombre": "Representante",
           "tipo": "INTEGER",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Comision",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Aplicar Comision",
@@ -2718,7 +2865,7 @@
           "nombre": "Forma de Pago",
           "tipo": "INTEGER",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Fecha Caducidad",
@@ -2758,7 +2905,7 @@
           "nombre": "Codigo Postal",
           "tipo": "INTEGER",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Poblacion",
@@ -2806,19 +2953,19 @@
           "nombre": "Descuento PP",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Gastos",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Portes",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Cierre Caja",
@@ -2829,19 +2976,19 @@
           "nombre": "Moneda",
           "tipo": "SMALLINT",
           "nulo": true,
-          "default": "1"
+          "defecto": "1"
         },
         {
           "nombre": "Pedido Servido",
           "tipo": "INTEGER",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Dependiente",
           "tipo": "INTEGER",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "hash",
@@ -2852,7 +2999,8 @@
         {
           "nombre": "idLin",
           "tipo": "INTEGER",
-          "nulo": false
+          "nulo": false,
+          "auto": true
         }
       ],
       "pk": [
@@ -2886,7 +3034,7 @@
           "nombre": "Proveedor",
           "tipo": "INTEGER",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Su Nota",
@@ -2903,7 +3051,7 @@
           "nombre": "Forma de Pago",
           "tipo": "INTEGER",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Facturado",
@@ -2932,37 +3080,37 @@
           "nombre": "Descuento PP",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Gastos",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Portes",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Moneda",
           "tipo": "SMALLINT",
           "nulo": true,
-          "default": "1"
+          "defecto": "1"
         },
         {
           "nombre": "Retencion",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "EntregaCuenta",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "subido",
@@ -2978,7 +3126,8 @@
         {
           "nombre": "idLin",
           "tipo": "INTEGER",
-          "nulo": false
+          "nulo": false,
+          "auto": true
         }
       ],
       "pk": [
@@ -3012,7 +3161,7 @@
           "nombre": "Cliente",
           "tipo": "INTEGER",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Observaciones",
@@ -3023,13 +3172,13 @@
           "nombre": "Representante",
           "tipo": "INTEGER",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Comision",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Aplicar Comision",
@@ -3041,7 +3190,7 @@
           "nombre": "Forma de Pago",
           "tipo": "INTEGER",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Fecha Caducidad",
@@ -3081,7 +3230,7 @@
           "nombre": "Codigo Postal",
           "tipo": "INTEGER",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Poblacion",
@@ -3129,19 +3278,19 @@
           "nombre": "Descuento PP",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Gastos",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Portes",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Cierre Caja",
@@ -3152,25 +3301,25 @@
           "nombre": "Moneda",
           "tipo": "SMALLINT",
           "nulo": true,
-          "default": "1"
+          "defecto": "1"
         },
         {
           "nombre": "Dependiente",
           "tipo": "INTEGER",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Retencion",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "EntregaCuenta",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "subido",
@@ -3186,7 +3335,8 @@
         {
           "nombre": "idLin",
           "tipo": "INTEGER",
-          "nulo": false
+          "nulo": false,
+          "auto": true
         }
       ],
       "pk": [
@@ -3220,7 +3370,7 @@
           "nombre": "Proveedor",
           "tipo": "INTEGER",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Su Pedido",
@@ -3237,7 +3387,7 @@
           "nombre": "Forma de Pago",
           "tipo": "INTEGER",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Facturado",
@@ -3266,37 +3416,37 @@
           "nombre": "Descuento PP",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Gastos",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Portes",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Moneda",
           "tipo": "SMALLINT",
           "nulo": true,
-          "default": "1"
+          "defecto": "1"
         },
         {
           "nombre": "Retencion",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "EntregaCuenta",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "subido",
@@ -3312,7 +3462,8 @@
         {
           "nombre": "idLin",
           "tipo": "INTEGER",
-          "nulo": false
+          "nulo": false,
+          "auto": true
         }
       ],
       "pk": [
@@ -3346,7 +3497,7 @@
           "nombre": "Cliente",
           "tipo": "INTEGER",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Observaciones",
@@ -3357,13 +3508,13 @@
           "nombre": "Representante",
           "tipo": "INTEGER",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Comision",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Aplicar Comision",
@@ -3375,7 +3526,7 @@
           "nombre": "Forma de Pago",
           "tipo": "INTEGER",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Fecha Caducidad",
@@ -3415,7 +3566,7 @@
           "nombre": "Codigo Postal",
           "tipo": "INTEGER",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Poblacion",
@@ -3463,43 +3614,43 @@
           "nombre": "Descuento PP",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Gastos",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Portes",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Moneda",
           "tipo": "SMALLINT",
           "nulo": true,
-          "default": "1"
+          "defecto": "1"
         },
         {
           "nombre": "Dependiente",
           "tipo": "INTEGER",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Retencion",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "EntregaCuenta",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "subido",
@@ -3515,7 +3666,8 @@
         {
           "nombre": "idLin",
           "tipo": "INTEGER",
-          "nulo": false
+          "nulo": false,
+          "auto": true
         }
       ],
       "pk": [
@@ -3549,7 +3701,7 @@
           "nombre": "Cliente",
           "tipo": "INTEGER",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Observaciones",
@@ -3560,61 +3712,61 @@
           "nombre": "Representante",
           "tipo": "INTEGER",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Comision",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "hoja",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "lunes",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "martes",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "miercoles",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "jueves",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "viernes",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "sabado",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "domingo",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Emision",
@@ -3632,13 +3784,13 @@
           "nombre": "Forma de Pago",
           "tipo": "INTEGER",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Fecha Caducidad",
           "tipo": "DATETIME",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Realizado por",
@@ -3673,7 +3825,7 @@
           "nombre": "Codigo Postal",
           "tipo": "INTEGER",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Poblacion",
@@ -3721,19 +3873,19 @@
           "nombre": "Descuento PP",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Gastos",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Portes",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Cierre Caja",
@@ -3744,13 +3896,13 @@
           "nombre": "Moneda",
           "tipo": "SMALLINT",
           "nulo": true,
-          "default": "1"
+          "defecto": "1"
         },
         {
           "nombre": "Pedido Servido",
           "tipo": "INTEGER",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Dependiente",
@@ -3766,7 +3918,8 @@
         {
           "nombre": "idLin",
           "tipo": "INTEGER",
-          "nulo": false
+          "nulo": false,
+          "auto": true
         }
       ],
       "pk": [
@@ -3790,7 +3943,7 @@
           "nombre": "Codigo",
           "tipo": "INTEGER",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Nombre",
@@ -3835,7 +3988,7 @@
           "nombre": "Cliente",
           "tipo": "INTEGER",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Observaciones",
@@ -3846,13 +3999,13 @@
           "nombre": "Representante",
           "tipo": "INTEGER",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Comision",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Aplicar Comision",
@@ -3864,7 +4017,7 @@
           "nombre": "Forma de Pago",
           "tipo": "INTEGER",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Fecha Caducidad",
@@ -3904,7 +4057,7 @@
           "nombre": "Codigo Postal",
           "tipo": "INTEGER",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Poblacion",
@@ -3952,43 +4105,43 @@
           "nombre": "Descuento PP",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Gastos",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Portes",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Moneda",
           "tipo": "SMALLINT",
           "nulo": true,
-          "default": "1"
+          "defecto": "1"
         },
         {
           "nombre": "Dependiente",
           "tipo": "INTEGER",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Retencion",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "EntregaCuenta",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "subido",
@@ -4004,7 +4157,8 @@
         {
           "nombre": "idLin",
           "tipo": "INTEGER",
-          "nulo": false
+          "nulo": false,
+          "auto": true
         }
       ],
       "pk": [
@@ -4043,19 +4197,19 @@
           "nombre": "Cliente",
           "tipo": "INTEGER",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Caja",
           "tipo": "INTEGER",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Dependiente",
           "tipo": "INTEGER",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Cuenta",
@@ -4066,7 +4220,7 @@
           "nombre": "Entrega",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Facturado",
@@ -4089,13 +4243,13 @@
           "nombre": "Descuento PP",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Moneda",
           "tipo": "SMALLINT",
           "nulo": true,
-          "default": "1"
+          "defecto": "1"
         },
         {
           "nombre": "Aplazado",
@@ -4130,19 +4284,19 @@
           "nombre": "Entrega1",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Entrega2",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Entrega3",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Notas",
@@ -4159,7 +4313,7 @@
           "nombre": "Historico",
           "tipo": "INTEGER",
           "nulo": true,
-          "default": "-1"
+          "defecto": "-1"
         },
         {
           "nombre": "tbai",
@@ -4256,7 +4410,8 @@
         {
           "nombre": "idLin",
           "tipo": "INTEGER",
-          "nulo": false
+          "nulo": false,
+          "auto": true
         },
         {
           "nombre": "tipoExenta",
@@ -4269,7 +4424,7 @@
           "tipo": "TEXT",
           "tamano": 3,
           "nulo": true,
-          "default": "SU"
+          "defecto": "SU"
         },
         {
           "nombre": "FechaEmision",
@@ -4320,6 +4475,217 @@
           "nombre": "HoraExpedicionTBAI",
           "tipo": "TEXT",
           "tamano": 8,
+          "nulo": true
+        },
+        {
+          "nombre": "Representante",
+          "tipo": "INTEGER",
+          "nulo": true
+        },
+        {
+          "nombre": "Comision",
+          "tipo": "SINGLE",
+          "nulo": true
+        },
+        {
+          "nombre": "Aplicar Comision",
+          "tipo": "TEXT",
+          "tamano": 15,
+          "nulo": true
+        },
+        {
+          "nombre": "Fecha Caducidad",
+          "tipo": "DATETIME",
+          "nulo": true
+        },
+        {
+          "nombre": "Realizado por",
+          "tipo": "TEXT",
+          "tamano": 40,
+          "nulo": true
+        },
+        {
+          "nombre": "Razon Social",
+          "tipo": "TEXT",
+          "tamano": 80,
+          "nulo": true
+        },
+        {
+          "nombre": "Domicilio",
+          "tipo": "TEXT",
+          "tamano": 40,
+          "nulo": true
+        },
+        {
+          "nombre": "Codigo Postal",
+          "tipo": "INTEGER",
+          "nulo": true
+        },
+        {
+          "nombre": "Poblacion",
+          "tipo": "TEXT",
+          "tamano": 40,
+          "nulo": true
+        },
+        {
+          "nombre": "Provincia",
+          "tipo": "TEXT",
+          "tamano": 25,
+          "nulo": true
+        },
+        {
+          "nombre": "Pais",
+          "tipo": "TEXT",
+          "tamano": 25,
+          "nulo": true
+        },
+        {
+          "nombre": "Telefono",
+          "tipo": "TEXT",
+          "tamano": 17,
+          "nulo": true
+        },
+        {
+          "nombre": "Transportista",
+          "tipo": "TEXT",
+          "tamano": 40,
+          "nulo": true
+        },
+        {
+          "nombre": "Tipo Portes",
+          "tipo": "TEXT",
+          "tamano": 1,
+          "nulo": true
+        },
+        {
+          "nombre": "Gastos",
+          "tipo": "SINGLE",
+          "nulo": true
+        },
+        {
+          "nombre": "Portes",
+          "tipo": "SINGLE",
+          "nulo": true
+        },
+        {
+          "nombre": "Cierre Caja",
+          "tipo": "BIT",
+          "nulo": false
+        },
+        {
+          "nombre": "Pedido Servido",
+          "tipo": "INTEGER",
+          "nulo": true
+        },
+        {
+          "nombre": "EntregaCuenta",
+          "tipo": "SINGLE",
+          "nulo": true
+        },
+        {
+          "nombre": "Rectificativa",
+          "tipo": "INTEGER",
+          "nulo": true
+        },
+        {
+          "nombre": "Anulada",
+          "tipo": "TEXT",
+          "tamano": 1,
+          "nulo": true
+        },
+        {
+          "nombre": "InversionSujetoPasivo",
+          "tipo": "BIT",
+          "nulo": false
+        },
+        {
+          "nombre": "ExpedienteFace",
+          "tipo": "TEXT",
+          "tamano": 200,
+          "nulo": true
+        },
+        {
+          "nombre": "OperacionFace",
+          "tipo": "TEXT",
+          "tamano": 200,
+          "nulo": true
+        },
+        {
+          "nombre": "EntidadPublica",
+          "tipo": "TEXT",
+          "tamano": 1,
+          "nulo": true
+        },
+        {
+          "nombre": "OficinaContable",
+          "tipo": "TEXT",
+          "tamano": 200,
+          "nulo": true
+        },
+        {
+          "nombre": "OrganoGestor",
+          "tipo": "TEXT",
+          "tamano": 200,
+          "nulo": true
+        },
+        {
+          "nombre": "UnidadTramitadora",
+          "tipo": "TEXT",
+          "tamano": 200,
+          "nulo": true
+        },
+        {
+          "nombre": "Organoproponente",
+          "tipo": "TEXT",
+          "tamano": 200,
+          "nulo": true
+        },
+        {
+          "nombre": "controlada",
+          "tipo": "BIT",
+          "nulo": false
+        },
+        {
+          "nombre": "faceActPeriod",
+          "tipo": "BIT",
+          "nulo": false
+        },
+        {
+          "nombre": "facePeriodIni",
+          "tipo": "DATETIME",
+          "nulo": true
+        },
+        {
+          "nombre": "facePeriodFin",
+          "tipo": "DATETIME",
+          "nulo": true
+        },
+        {
+          "nombre": "faceAdditionalInformation",
+          "tipo": "TEXT",
+          "nulo": true
+        },
+        {
+          "nombre": "IBANFace",
+          "tipo": "TEXT",
+          "tamano": 200,
+          "nulo": true
+        },
+        {
+          "nombre": "tipoRec",
+          "tipo": "TEXT",
+          "tamano": 3,
+          "nulo": true
+        },
+        {
+          "nombre": "tipoRecTipo",
+          "tipo": "TEXT",
+          "tamano": 12,
+          "nulo": true
+        },
+        {
+          "nombre": "facOriginal",
+          "tipo": "INTEGER",
           "nulo": true
         }
       ],
@@ -4385,7 +4751,7 @@
           "nombre": "Codigo",
           "tipo": "INTEGER",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Nombre",
@@ -4408,7 +4774,7 @@
           "nombre": "Saldo Inicial",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         }
       ],
       "pk": [
@@ -4440,7 +4806,7 @@
           "nombre": "Codigo",
           "tipo": "INTEGER",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Ubicacion",
@@ -4452,7 +4818,7 @@
           "nombre": "Linea",
           "tipo": "SMALLINT",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Campo",
@@ -4470,13 +4836,13 @@
           "nombre": "Horizontal",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Vertical",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Alineacion",
@@ -4494,7 +4860,7 @@
           "nombre": "Tamaño",
           "tipo": "BYTE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Negrita",
@@ -4515,13 +4881,13 @@
           "nombre": "FinHorizontal",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "FinVertical",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Color",
@@ -4555,13 +4921,13 @@
           "nombre": "Codigo",
           "tipo": "INTEGER",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Linea",
           "tipo": "SMALLINT",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Campo",
@@ -4579,13 +4945,13 @@
           "nombre": "Horizontal",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Vertical",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Alineacion",
@@ -4603,37 +4969,37 @@
           "nombre": "Tamaño",
           "tipo": "BYTE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Negrita",
           "tipo": "BIT",
           "nulo": false,
-          "default": "False"
+          "defecto": "False"
         },
         {
           "nombre": "Cursiva",
           "tipo": "BIT",
           "nulo": false,
-          "default": "False"
+          "defecto": "False"
         },
         {
           "nombre": "Subrayado",
           "tipo": "BIT",
           "nulo": false,
-          "default": "False"
+          "defecto": "False"
         },
         {
           "nombre": "FinHorizontal",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "FinVertical",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Color",
@@ -4665,13 +5031,13 @@
           "nombre": "Codigo",
           "tipo": "INTEGER",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Linea",
           "tipo": "SMALLINT",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Campo",
@@ -4689,13 +5055,13 @@
           "nombre": "Horizontal",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Vertical",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Alineacion",
@@ -4713,37 +5079,37 @@
           "nombre": "Tamaño",
           "tipo": "BYTE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Negrita",
           "tipo": "BIT",
           "nulo": false,
-          "default": "False"
+          "defecto": "False"
         },
         {
           "nombre": "Cursiva",
           "tipo": "BIT",
           "nulo": false,
-          "default": "False"
+          "defecto": "False"
         },
         {
           "nombre": "Subrayado",
           "tipo": "BIT",
           "nulo": false,
-          "default": "False"
+          "defecto": "False"
         },
         {
           "nombre": "FinHorizontal",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "FinVertical",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Color",
@@ -4775,7 +5141,7 @@
           "nombre": "Codigo",
           "tipo": "INTEGER",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Razon Social",
@@ -4799,7 +5165,7 @@
           "nombre": "Codigo Postal",
           "tipo": "INTEGER",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Poblacion",
@@ -4859,7 +5225,7 @@
           "nombre": "Zona",
           "tipo": "INTEGER",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Persona Contacto",
@@ -4877,7 +5243,7 @@
           "nombre": "Representante",
           "tipo": "INTEGER",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Archivo Imagen",
@@ -4894,50 +5260,50 @@
           "nombre": "Tarifa",
           "tipo": "SMALLINT",
           "nulo": true,
-          "default": "1"
+          "defecto": "1"
         },
         {
           "nombre": "Tabla Descuento",
           "tipo": "INTEGER",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Descuento PP",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Impuestos",
           "tipo": "TEXT",
           "tamano": 1,
           "nulo": true,
-          "default": "\"I\""
+          "defecto": "\"I\""
         },
         {
           "nombre": "Copias",
           "tipo": "SMALLINT",
           "nulo": true,
-          "default": "1"
+          "defecto": "1"
         },
         {
           "nombre": "Forma de Pago",
           "tipo": "INTEGER",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Dia Pago 1",
           "tipo": "SMALLINT",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Dia Pago 2",
           "tipo": "SMALLINT",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Banco",
@@ -4955,7 +5321,7 @@
           "nombre": "Codigo Postal Banco",
           "tipo": "INTEGER",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Poblacion Banco",
@@ -5004,7 +5370,7 @@
           "tipo": "TEXT",
           "tamano": 1,
           "nulo": true,
-          "default": "\"D\""
+          "defecto": "\"D\""
         },
         {
           "nombre": "Domicilio Envio",
@@ -5016,7 +5382,7 @@
           "nombre": "Codigo Postal Envio",
           "tipo": "INTEGER",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Poblacion Envio",
@@ -5040,13 +5406,13 @@
           "nombre": "Antiguedad",
           "tipo": "DATETIME",
           "nulo": true,
-          "default": "#12/30/1899#"
+          "defecto": "#12/30/1899#"
         },
         {
           "nombre": "Riesgo",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Aviso",
@@ -5076,7 +5442,7 @@
           "nombre": "Imprimir EMail",
           "tipo": "BIT",
           "nulo": false,
-          "default": "False"
+          "defecto": "False"
         },
         {
           "nombre": "Publicidad",
@@ -5105,20 +5471,20 @@
           "tipo": "TEXT",
           "tamano": 2,
           "nulo": true,
-          "default": "2"
+          "defecto": "2"
         },
         {
           "nombre": "PaisAlfa2",
           "tipo": "TEXT",
           "tamano": 2,
           "nulo": true,
-          "default": "ES"
+          "defecto": "ES"
         },
         {
           "nombre": "fidelizacion",
           "tipo": "DOUBLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Albaratickets",
@@ -5130,7 +5496,7 @@
           "tipo": "TEXT",
           "tamano": 2,
           "nulo": true,
-          "default": "XX"
+          "defecto": "XX"
         }
       ],
       "pk": [
@@ -5162,25 +5528,25 @@
           "nombre": "Numero Cobro",
           "tipo": "INTEGER",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Importe",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Cliente",
           "tipo": "INTEGER",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Caja",
           "tipo": "INTEGER",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Lugar Libramiento",
@@ -5192,13 +5558,13 @@
           "nombre": "Factura",
           "tipo": "INTEGER",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Orden",
           "tipo": "SMALLINT",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Fecha Libramiento",
@@ -5215,7 +5581,7 @@
           "tipo": "TEXT",
           "tamano": 15,
           "nulo": true,
-          "default": "\"Pagado\""
+          "defecto": "\"Pagado\""
         },
         {
           "nombre": "Descripcion",
@@ -5245,7 +5611,7 @@
           "nombre": "Codigo Postal Banco",
           "tipo": "INTEGER",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Poblacion Banco",
@@ -5298,13 +5664,13 @@
           "nombre": "Moneda",
           "tipo": "SMALLINT",
           "nulo": true,
-          "default": "1"
+          "defecto": "1"
         },
         {
           "nombre": "Historico",
           "tipo": "INTEGER",
           "nulo": true,
-          "default": "-1"
+          "defecto": "-1"
         },
         {
           "nombre": "IBAN",
@@ -5375,7 +5741,8 @@
         {
           "nombre": "ID_Configuraciones",
           "tipo": "INTEGER",
-          "nulo": false
+          "nulo": false,
+          "auto": true
         },
         {
           "nombre": "Seccion",
@@ -5426,7 +5793,8 @@
         {
           "nombre": "ID",
           "tipo": "INTEGER",
-          "nulo": false
+          "nulo": false,
+          "auto": true
         },
         {
           "nombre": "accion",
@@ -5461,7 +5829,7 @@
       ],
       "indices": [
         {
-          "nombre": "Index_E3EB1C1B_D073_4D7F",
+          "nombre": "Index_9BEBA01D_1907_408A",
           "columnas": [
             "ID"
           ],
@@ -5477,7 +5845,7 @@
           "nombre": "Codigo",
           "tipo": "INTEGER",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Nombre",
@@ -5495,7 +5863,7 @@
           "nombre": "Año",
           "tipo": "INTEGER",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Actividad",
@@ -5513,7 +5881,7 @@
           "nombre": "Codigo Postal",
           "tipo": "INTEGER",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Poblacion",
@@ -5595,25 +5963,25 @@
           "nombre": "Decimales Pesetas",
           "tipo": "BYTE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Decimales Euros",
           "tipo": "BYTE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Decimales Cantidades",
           "tipo": "BYTE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Decimales Descuento",
           "tipo": "BYTE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Avisar Riesgo",
@@ -5640,38 +6008,38 @@
           "nombre": "Caja Recibos",
           "tipo": "INTEGER",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Caja Pagos",
           "tipo": "INTEGER",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Estado",
           "tipo": "TEXT",
           "tamano": 15,
           "nulo": true,
-          "default": "\"Pagado\""
+          "defecto": "\"Pagado\""
         },
         {
           "nombre": "Cliente Tickets",
           "tipo": "INTEGER",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Moneda Principal",
           "tipo": "SMALLINT",
           "nulo": true,
-          "default": "1"
+          "defecto": "1"
         },
         {
           "nombre": "Cliente Tarjeta",
           "tipo": "INTEGER",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Tickets Rapidos",
@@ -5688,13 +6056,13 @@
           "nombre": "Preguntar Numero Serie",
           "tipo": "BIT",
           "nulo": false,
-          "default": "False"
+          "defecto": "False"
         },
         {
           "nombre": "Cliente Notas",
           "tipo": "INTEGER",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Licencia",
@@ -5739,7 +6107,7 @@
           "nombre": "Codigo",
           "tipo": "INTEGER",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Nombre",
@@ -5757,7 +6125,7 @@
           "nombre": "Codigo Postal",
           "tipo": "INTEGER",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Poblacion",
@@ -5817,7 +6185,7 @@
           "nombre": "Precio Hora",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Registro",
@@ -5846,7 +6214,7 @@
           "nombre": "Codigo Postal Banco",
           "tipo": "INTEGER",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Poblacion Banco",
@@ -5923,7 +6291,7 @@
           "nombre": "Comision",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "IBAN",
@@ -6011,7 +6379,7 @@
           "nombre": "Codigo",
           "tipo": "INTEGER",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Nombre",
@@ -6028,31 +6396,31 @@
           "nombre": "Descripcion Centrada",
           "tipo": "BIT",
           "nulo": false,
-          "default": "False"
+          "defecto": "False"
         },
         {
           "nombre": "Subrayado",
           "tipo": "BIT",
           "nulo": false,
-          "default": "False"
+          "defecto": "False"
         },
         {
           "nombre": "Cursiva",
           "tipo": "BIT",
           "nulo": false,
-          "default": "False"
+          "defecto": "False"
         },
         {
           "nombre": "Negrita",
           "tipo": "BIT",
           "nulo": false,
-          "default": "False"
+          "defecto": "False"
         },
         {
           "nombre": "Tamaño",
           "tipo": "SMALLINT",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Fuente",
@@ -6064,13 +6432,13 @@
           "nombre": "Color Texto",
           "tipo": "INTEGER",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Color Fondo",
           "tipo": "INTEGER",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Archivo Imagen",
@@ -6082,19 +6450,19 @@
           "nombre": "Margen Venta",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "No Mostrar en Tickets",
           "tipo": "BIT",
           "nulo": false,
-          "default": "False"
+          "defecto": "False"
         },
         {
           "nombre": "Orden",
           "tipo": "INTEGER",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         }
       ],
       "pk": [
@@ -6126,13 +6494,13 @@
           "nombre": "Codigo",
           "tipo": "INTEGER",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Numero Pagos",
           "tipo": "SMALLINT",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Nombre",
@@ -6144,151 +6512,151 @@
           "nombre": "Dias Pago 1",
           "tipo": "SMALLINT",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Porcentaje Pago 1",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Dias Pago 2",
           "tipo": "SMALLINT",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Porcentaje Pago 2",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Dias Pago 3",
           "tipo": "SMALLINT",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Porcentaje Pago 3",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Dias Pago 4",
           "tipo": "SMALLINT",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Porcentaje Pago 4",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Dias Pago 5",
           "tipo": "SMALLINT",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Porcentaje Pago 5",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Dias Pago 6",
           "tipo": "SMALLINT",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Porcentaje Pago 6",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Dias Pago 7",
           "tipo": "SMALLINT",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Porcentaje Pago 7",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Dias Pago 8",
           "tipo": "SMALLINT",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Porcentaje Pago 8",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Dias Pago 9",
           "tipo": "SMALLINT",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Porcentaje Pago 9",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Dias Pago 10",
           "tipo": "SMALLINT",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Porcentaje Pago 10",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Dias Pago 11",
           "tipo": "SMALLINT",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Porcentaje Pago 11",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Dias Pago 12",
           "tipo": "SMALLINT",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Porcentaje Pago 12",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Mostrar en TPV",
           "tipo": "BIT",
           "nulo": false,
-          "default": "False"
+          "defecto": "False"
         }
       ],
       "pk": [
@@ -6320,7 +6688,7 @@
           "nombre": "Codigo",
           "tipo": "INTEGER",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Descripcion",
@@ -6338,31 +6706,31 @@
           "nombre": "Ancho",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Alto",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Alto Cabecera",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Alto Pie",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Detalle",
           "tipo": "BIT",
           "nulo": false,
-          "default": "No"
+          "defecto": "No"
         },
         {
           "nombre": "Ticket",
@@ -6379,25 +6747,25 @@
           "nombre": "Horizontal Imagen",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Vertical Imagen",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Pagina Predeterminada",
           "tipo": "BIT",
           "nulo": false,
-          "default": "False"
+          "defecto": "False"
         },
         {
           "nombre": "Longitud Descripcion",
           "tipo": "INTEGER",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Archivo Imagen 2",
@@ -6409,13 +6777,13 @@
           "nombre": "Horizontal Imagen 2",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Vertical Imagen 2",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Archivo Imagen 3",
@@ -6427,19 +6795,19 @@
           "nombre": "Horizontal Imagen 3",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Vertical Imagen 3",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Dos Copias Pagina",
           "tipo": "BIT",
           "nulo": false,
-          "default": "False"
+          "defecto": "False"
         },
         {
           "nombre": "urlQr",
@@ -6460,6 +6828,74 @@
           "nombre": "urlQrmargen",
           "tipo": "SINGLE",
           "nulo": true
+        },
+        {
+          "nombre": "Archivo Imagen Pie",
+          "tipo": "TEXT",
+          "tamano": 255,
+          "nulo": true
+        },
+        {
+          "nombre": "Horizontal Imagen Pie",
+          "tipo": "SINGLE",
+          "nulo": true
+        },
+        {
+          "nombre": "Vertical Imagen Pie",
+          "tipo": "SINGLE",
+          "nulo": true
+        },
+        {
+          "nombre": "Impresion Horizontal",
+          "tipo": "BIT",
+          "nulo": false
+        },
+        {
+          "nombre": "dobleCara",
+          "tipo": "INTEGER",
+          "nulo": true
+        },
+        {
+          "nombre": "Sin Cabecera",
+          "tipo": "BIT",
+          "nulo": false
+        },
+        {
+          "nombre": "Cabecera Solo Pagina 1",
+          "tipo": "BIT",
+          "nulo": false
+        },
+        {
+          "nombre": "Detalle Compuesto",
+          "tipo": "BIT",
+          "nulo": false
+        },
+        {
+          "nombre": "Ordenar Articulos",
+          "tipo": "BIT",
+          "nulo": false
+        },
+        {
+          "nombre": "IncluirObser",
+          "tipo": "BIT",
+          "nulo": false
+        },
+        {
+          "nombre": "TextoObserva",
+          "tipo": "TEXT",
+          "tamano": 255,
+          "nulo": true
+        },
+        {
+          "nombre": "TextoAlbaran",
+          "tipo": "TEXT",
+          "tamano": 255,
+          "nulo": true
+        },
+        {
+          "nombre": "Incluir Matricula",
+          "tipo": "BIT",
+          "nulo": false
         }
       ],
       "pk": [
@@ -6491,7 +6927,7 @@
           "nombre": "Codigo",
           "tipo": "INTEGER",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Descripcion",
@@ -6509,91 +6945,91 @@
           "nombre": "Tamaño Pagina Ancho",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Tamaño Pagina Alto",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Tamaño Etiqueta Ancho",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Tamaño Etiqueta Alto",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Margen Pagina Superior",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Margen Pagina Inferior",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Margen Pagina Izquierdo",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Margen Pagina Derecho",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Margen Etiqueta Superior",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Margen Etiqueta Inferior",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Margen Etiqueta Izquierdo",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Margen Etiqueta Derecho",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Distancia Etiqueta Horizontal",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Distancia Etiqueta Vertical",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Pagina Predeterminada",
           "tipo": "BIT",
           "nulo": false,
-          "default": "False"
+          "defecto": "False"
         },
         {
           "nombre": "Archivo Imagen 1",
@@ -6605,13 +7041,13 @@
           "nombre": "Horizontal Imagen 1",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Vertical Imagen 1",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Archivo Imagen 2",
@@ -6623,13 +7059,13 @@
           "nombre": "Horizontal Imagen 2",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Vertical Imagen 2",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Archivo Imagen 3",
@@ -6641,19 +7077,19 @@
           "nombre": "Horizontal Imagen 3",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Vertical Imagen 3",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Longitud Descripcion",
           "tipo": "INTEGER",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         }
       ],
       "pk": [
@@ -6685,7 +7121,7 @@
           "nombre": "Codigo",
           "tipo": "INTEGER",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Descripcion",
@@ -6703,13 +7139,13 @@
           "nombre": "Ancho",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Alto",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Archivo Imagen 1",
@@ -6721,13 +7157,13 @@
           "nombre": "Horizontal Imagen 1",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Vertical Imagen 1",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Archivo Imagen 2",
@@ -6739,13 +7175,13 @@
           "nombre": "Horizontal Imagen 2",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Vertical Imagen 2",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Archivo Imagen 3",
@@ -6757,19 +7193,19 @@
           "nombre": "Horizontal Imagen 3",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Vertical Imagen 3",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Pagina Predeterminada",
           "tipo": "BIT",
           "nulo": false,
-          "default": "False"
+          "defecto": "False"
         }
       ],
       "pk": [
@@ -6824,7 +7260,7 @@
           "nombre": "Numero Gasto",
           "tipo": "INTEGER",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Fecha",
@@ -6835,13 +7271,13 @@
           "nombre": "Importe",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Caja",
           "tipo": "INTEGER",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Causante",
@@ -6864,13 +7300,13 @@
           "nombre": "Moneda",
           "tipo": "SMALLINT",
           "nulo": true,
-          "default": "1"
+          "defecto": "1"
         },
         {
           "nombre": "Historico",
           "tipo": "INTEGER",
           "nulo": true,
-          "default": "-1"
+          "defecto": "-1"
         },
         {
           "nombre": "subido",
@@ -6901,6 +7337,223 @@
       ]
     },
     {
+      "nombre": "gestionVale",
+      "columnas": [
+        {
+          "nombre": "Numero",
+          "tipo": "INTEGER",
+          "nulo": false,
+          "auto": true
+        },
+        {
+          "nombre": "Serie",
+          "tipo": "TEXT",
+          "tamano": 5,
+          "nulo": true
+        },
+        {
+          "nombre": "Fecha",
+          "tipo": "DATETIME",
+          "nulo": true
+        },
+        {
+          "nombre": "Hora",
+          "tipo": "DATETIME",
+          "nulo": true
+        },
+        {
+          "nombre": "Caja",
+          "tipo": "INTEGER",
+          "nulo": true
+        },
+        {
+          "nombre": "Dependiente",
+          "tipo": "INTEGER",
+          "nulo": true
+        },
+        {
+          "nombre": "DocOrigen",
+          "tipo": "INTEGER",
+          "nulo": true
+        },
+        {
+          "nombre": "TipoDocOrigen",
+          "tipo": "TEXT",
+          "tamano": 50,
+          "nulo": true
+        },
+        {
+          "nombre": "Cliente",
+          "tipo": "INTEGER",
+          "nulo": true
+        },
+        {
+          "nombre": "ImporteTotal",
+          "tipo": "DOUBLE",
+          "nulo": true
+        },
+        {
+          "nombre": "SaldoRestante",
+          "tipo": "DOUBLE",
+          "nulo": true
+        },
+        {
+          "nombre": "Estado",
+          "tipo": "TEXT",
+          "tamano": 15,
+          "nulo": true
+        },
+        {
+          "nombre": "FechaCaducidad",
+          "tipo": "DATETIME",
+          "nulo": true
+        },
+        {
+          "nombre": "Observaciones",
+          "tipo": "TEXT",
+          "nulo": true
+        },
+        {
+          "nombre": "TicketOriginal",
+          "tipo": "INTEGER",
+          "nulo": true
+        }
+      ],
+      "pk": [
+        "Numero"
+      ],
+      "indices": [
+        {
+          "nombre": "Index_421F9142_1FCA_4CAD",
+          "columnas": [
+            "Numero"
+          ],
+          "unico": true,
+          "primario": true
+        }
+      ]
+    },
+    {
+      "nombre": "gestionValeArticulos",
+      "columnas": [
+        {
+          "nombre": "ID",
+          "tipo": "INTEGER",
+          "nulo": false,
+          "auto": true
+        },
+        {
+          "nombre": "Numero",
+          "tipo": "INTEGER",
+          "nulo": true
+        },
+        {
+          "nombre": "Linea",
+          "tipo": "INTEGER",
+          "nulo": true
+        },
+        {
+          "nombre": "Articulo",
+          "tipo": "TEXT",
+          "tamano": 30,
+          "nulo": true
+        },
+        {
+          "nombre": "Descripcion",
+          "tipo": "TEXT",
+          "tamano": 255,
+          "nulo": true
+        },
+        {
+          "nombre": "Cantidad",
+          "tipo": "DOUBLE",
+          "nulo": true
+        },
+        {
+          "nombre": "Precio",
+          "tipo": "DOUBLE",
+          "nulo": true
+        },
+        {
+          "nombre": "IVA",
+          "tipo": "DOUBLE",
+          "nulo": true
+        }
+      ],
+      "pk": [
+        "ID"
+      ],
+      "indices": [
+        {
+          "nombre": "Index_B97A8280_82A2_4D0E",
+          "columnas": [
+            "ID"
+          ],
+          "unico": true,
+          "primario": true
+        }
+      ]
+    },
+    {
+      "nombre": "gestionValeUsos",
+      "columnas": [
+        {
+          "nombre": "ID",
+          "tipo": "INTEGER",
+          "nulo": false,
+          "auto": true
+        },
+        {
+          "nombre": "Numero",
+          "tipo": "INTEGER",
+          "nulo": true
+        },
+        {
+          "nombre": "Linea",
+          "tipo": "INTEGER",
+          "nulo": true
+        },
+        {
+          "nombre": "TicketUso",
+          "tipo": "INTEGER",
+          "nulo": true
+        },
+        {
+          "nombre": "Fecha",
+          "tipo": "DATETIME",
+          "nulo": true
+        },
+        {
+          "nombre": "Hora",
+          "tipo": "DATETIME",
+          "nulo": true
+        },
+        {
+          "nombre": "ImporteConsumido",
+          "tipo": "DOUBLE",
+          "nulo": true
+        },
+        {
+          "nombre": "SaldoTrasUso",
+          "tipo": "DOUBLE",
+          "nulo": true
+        }
+      ],
+      "pk": [
+        "ID"
+      ],
+      "indices": [
+        {
+          "nombre": "Index_B45B097C_BDD1_44FF",
+          "columnas": [
+            "ID"
+          ],
+          "unico": true,
+          "primario": true
+        }
+      ]
+    },
+    {
       "nombre": "Histórico Cierres Caja",
       "columnas": [
         {
@@ -6922,67 +7575,67 @@
           "nombre": "Suma Tickets Efectivo",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Suma Tickets Tarjeta",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Suma Recibos Clientes",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Suma Ingresos",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Suma Pagos Proveed",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Suma Pagos Repre",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Suma Pagos Depend",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Suma Gastos",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Cobros N Venta",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Pagos N Compra",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Saldo Inicial Caja",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Total",
@@ -6993,7 +7646,7 @@
           "nombre": "Importe caja",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Dependiente",
@@ -7041,7 +7694,7 @@
           "nombre": "Fecha_Apertura",
           "tipo": "DATETIME",
           "nulo": true,
-          "default": "-1"
+          "defecto": "-1"
         },
         {
           "nombre": "subido",
@@ -7056,7 +7709,8 @@
         {
           "nombre": "ID",
           "tipo": "INTEGER",
-          "nulo": false
+          "nulo": false,
+          "auto": true
         },
         {
           "nombre": "TipoDocumento",
@@ -7322,7 +7976,7 @@
       ],
       "indices": [
         {
-          "nombre": "Index_72352291_0CD6_4FC5",
+          "nombre": "Index_768F39B1_9BBD_428F",
           "columnas": [
             "ID"
           ],
@@ -7443,7 +8097,8 @@
         {
           "nombre": "ID",
           "tipo": "INTEGER",
-          "nulo": false
+          "nulo": false,
+          "auto": true
         },
         {
           "nombre": "urlEnvio",
@@ -7587,7 +8242,7 @@
       ],
       "indices": [
         {
-          "nombre": "Index_C21BDC17_89AA_43F0",
+          "nombre": "Index_9F3E4DDD_198C_4839",
           "columnas": [
             "ID"
           ],
@@ -7602,7 +8257,8 @@
         {
           "nombre": "ID",
           "tipo": "INTEGER",
-          "nulo": false
+          "nulo": false,
+          "auto": true
         },
         {
           "nombre": "FechaConsulta",
@@ -7709,7 +8365,7 @@
       ],
       "indices": [
         {
-          "nombre": "Index_9FED9A8B_8C63_4B1D",
+          "nombre": "Index_69656DE9_B180_4983",
           "columnas": [
             "ID"
           ],
@@ -7724,7 +8380,8 @@
         {
           "nombre": "ID",
           "tipo": "INTEGER",
-          "nulo": false
+          "nulo": false,
+          "auto": true
         },
         {
           "nombre": "Fecha",
@@ -7850,7 +8507,8 @@
         {
           "nombre": "ID",
           "tipo": "INTEGER",
-          "nulo": false
+          "nulo": false,
+          "auto": true
         },
         {
           "nombre": "Entorno",
@@ -7949,7 +8607,7 @@
       ],
       "indices": [
         {
-          "nombre": "Index_5CEB68D4_3F80_4813",
+          "nombre": "Index_0D38641D_E964_4D95",
           "columnas": [
             "ID"
           ],
@@ -7964,7 +8622,8 @@
         {
           "nombre": "id",
           "tipo": "INTEGER",
-          "nulo": false
+          "nulo": false,
+          "auto": true
         },
         {
           "nombre": "fechaCreacion",
@@ -7990,7 +8649,7 @@
           "nombre": "Numero Ingreso",
           "tipo": "INTEGER",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Fecha",
@@ -8001,13 +8660,13 @@
           "nombre": "Importe",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Caja",
           "tipo": "INTEGER",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Causante",
@@ -8030,13 +8689,13 @@
           "nombre": "Moneda",
           "tipo": "SMALLINT",
           "nulo": true,
-          "default": "1"
+          "defecto": "1"
         },
         {
           "nombre": "Historico",
           "tipo": "INTEGER",
           "nulo": true,
-          "default": "-1"
+          "defecto": "-1"
         },
         {
           "nombre": "subido",
@@ -8073,7 +8732,7 @@
           "nombre": "Numero",
           "tipo": "INTEGER",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Descripcion",
@@ -8085,7 +8744,7 @@
           "nombre": "Linea",
           "tipo": "INTEGER",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Articulo",
@@ -8097,7 +8756,7 @@
           "nombre": "Coste",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Talla",
@@ -8115,31 +8774,31 @@
           "nombre": "Cantidad",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Precio",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Descuento",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "IVA",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "RE",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Numero Serie",
@@ -8151,7 +8810,7 @@
           "nombre": "Beneficio Venta",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Lote",
@@ -8173,7 +8832,8 @@
         {
           "nombre": "idLin",
           "tipo": "INTEGER",
-          "nulo": false
+          "nulo": false,
+          "auto": true
         }
       ],
       "pk": [
@@ -8199,7 +8859,7 @@
           "nombre": "Numero",
           "tipo": "INTEGER",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Descripcion",
@@ -8211,7 +8871,7 @@
           "nombre": "Linea",
           "tipo": "INTEGER",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Articulo",
@@ -8223,7 +8883,7 @@
           "nombre": "Coste",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Talla",
@@ -8241,31 +8901,31 @@
           "nombre": "Cantidad",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Precio",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Descuento",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "IVA",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "RE",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Numero Serie",
@@ -8293,7 +8953,8 @@
         {
           "nombre": "idLin",
           "tipo": "INTEGER",
-          "nulo": false
+          "nulo": false,
+          "auto": true
         }
       ],
       "pk": [
@@ -8319,7 +8980,7 @@
           "nombre": "Numero",
           "tipo": "INTEGER",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Descripcion",
@@ -8331,7 +8992,7 @@
           "nombre": "Linea",
           "tipo": "INTEGER",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Articulo",
@@ -8343,7 +9004,7 @@
           "nombre": "Coste",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Talla",
@@ -8361,31 +9022,31 @@
           "nombre": "Cantidad",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Precio",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Descuento",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "IVA",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "RE",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Numero Serie",
@@ -8397,7 +9058,7 @@
           "nombre": "Beneficio Venta",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Lote",
@@ -8419,7 +9080,8 @@
         {
           "nombre": "idLin",
           "tipo": "INTEGER",
-          "nulo": false
+          "nulo": false,
+          "auto": true
         }
       ],
       "pk": [
@@ -8445,7 +9107,7 @@
           "nombre": "Numero",
           "tipo": "INTEGER",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Descripcion",
@@ -8457,7 +9119,7 @@
           "nombre": "Linea",
           "tipo": "INTEGER",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Articulo",
@@ -8469,7 +9131,7 @@
           "nombre": "Coste",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Talla",
@@ -8487,31 +9149,31 @@
           "nombre": "Cantidad",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Precio",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Descuento",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "IVA",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "RE",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Numero Serie",
@@ -8539,7 +9201,8 @@
         {
           "nombre": "idLin",
           "tipo": "INTEGER",
-          "nulo": false
+          "nulo": false,
+          "auto": true
         }
       ],
       "pk": [
@@ -8565,7 +9228,7 @@
           "nombre": "Numero",
           "tipo": "INTEGER",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Descripcion",
@@ -8577,7 +9240,7 @@
           "nombre": "Linea",
           "tipo": "INTEGER",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Articulo",
@@ -8589,7 +9252,7 @@
           "nombre": "Coste",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Talla",
@@ -8607,31 +9270,31 @@
           "nombre": "Cantidad",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Precio",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Descuento",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "IVA",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "RE",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Numero Serie",
@@ -8659,7 +9322,8 @@
         {
           "nombre": "idLin",
           "tipo": "INTEGER",
-          "nulo": false
+          "nulo": false,
+          "auto": true
         }
       ],
       "pk": [
@@ -8685,13 +9349,13 @@
           "nombre": "Numero",
           "tipo": "INTEGER",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Linea",
           "tipo": "INTEGER",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Articulo",
@@ -8709,7 +9373,7 @@
           "nombre": "Coste",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Talla",
@@ -8727,31 +9391,31 @@
           "nombre": "Cantidad",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Precio",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Descuento",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "IVA",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "RE",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Numero Serie",
@@ -8779,7 +9443,8 @@
         {
           "nombre": "idLin",
           "tipo": "INTEGER",
-          "nulo": false
+          "nulo": false,
+          "auto": true
         }
       ],
       "pk": [
@@ -8805,13 +9470,13 @@
           "nombre": "Numero",
           "tipo": "INTEGER",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Linea",
           "tipo": "INTEGER",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Articulo",
@@ -8829,7 +9494,7 @@
           "nombre": "Coste",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Talla",
@@ -8847,37 +9512,37 @@
           "nombre": "Cantidad",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Precio",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Descuento",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "IVA",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "RE",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Empleado",
           "tipo": "INTEGER",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Numero Serie",
@@ -8905,7 +9570,8 @@
         {
           "nombre": "idLin",
           "tipo": "INTEGER",
-          "nulo": false
+          "nulo": false,
+          "auto": true
         }
       ],
       "pk": [
@@ -8931,13 +9597,13 @@
           "nombre": "Numero",
           "tipo": "INTEGER",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Linea",
           "tipo": "INTEGER",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Articulo",
@@ -8949,7 +9615,7 @@
           "nombre": "Coste",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Descripcion",
@@ -8973,31 +9639,31 @@
           "nombre": "Cantidad",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Precio",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Descuento",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "IVA",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "RE",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Numero Serie",
@@ -9025,7 +9691,8 @@
         {
           "nombre": "idLin",
           "tipo": "INTEGER",
-          "nulo": false
+          "nulo": false,
+          "auto": true
         }
       ],
       "pk": [
@@ -9034,7 +9701,7 @@
       ],
       "indices": [
         {
-          "nombre": "LAV_NUM",
+          "nombre": "LFV_NUM",
           "columnas": [
             "Numero",
             "Linea"
@@ -9051,7 +9718,7 @@
           "nombre": "Numero",
           "tipo": "INTEGER",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Descripcion",
@@ -9063,7 +9730,7 @@
           "nombre": "Linea",
           "tipo": "INTEGER",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Articulo",
@@ -9075,7 +9742,7 @@
           "nombre": "Coste",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Talla",
@@ -9093,31 +9760,31 @@
           "nombre": "Cantidad",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Precio",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Descuento",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "IVA",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "RE",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Numero Serie",
@@ -9129,7 +9796,7 @@
           "nombre": "Beneficio Venta",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Lote",
@@ -9151,7 +9818,8 @@
         {
           "nombre": "idLin",
           "tipo": "INTEGER",
-          "nulo": false
+          "nulo": false,
+          "auto": true
         }
       ],
       "pk": [
@@ -9177,7 +9845,7 @@
           "nombre": "Numero",
           "tipo": "INTEGER",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Descripcion",
@@ -9189,7 +9857,7 @@
           "nombre": "Linea",
           "tipo": "INTEGER",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Articulo",
@@ -9201,7 +9869,7 @@
           "nombre": "Coste",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Talla",
@@ -9219,31 +9887,31 @@
           "nombre": "Cantidad",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Precio",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Descuento",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "IVA",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "RE",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Numero Serie",
@@ -9271,7 +9939,8 @@
         {
           "nombre": "idLin",
           "tipo": "INTEGER",
-          "nulo": false
+          "nulo": false,
+          "auto": true
         }
       ],
       "pk": [
@@ -9297,7 +9966,7 @@
           "nombre": "Numero",
           "tipo": "INTEGER",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Descripcion",
@@ -9309,7 +9978,7 @@
           "nombre": "Linea",
           "tipo": "INTEGER",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Articulo",
@@ -9321,7 +9990,7 @@
           "nombre": "Coste",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Talla",
@@ -9339,31 +10008,31 @@
           "nombre": "Cantidad",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Precio",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Descuento",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "IVA",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "RE",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Numero Serie",
@@ -9391,7 +10060,8 @@
         {
           "nombre": "idLin",
           "tipo": "INTEGER",
-          "nulo": false
+          "nulo": false,
+          "auto": true
         }
       ],
       "pk": [
@@ -9417,7 +10087,7 @@
           "nombre": "Numero",
           "tipo": "INTEGER",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Descripcion",
@@ -9429,7 +10099,7 @@
           "nombre": "Linea",
           "tipo": "INTEGER",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Articulo",
@@ -9441,7 +10111,7 @@
           "nombre": "Coste",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Talla",
@@ -9459,31 +10129,31 @@
           "nombre": "Cantidad",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Precio",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Descuento",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "IVA",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "RE",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Numero Serie",
@@ -9511,7 +10181,8 @@
         {
           "nombre": "idLin",
           "tipo": "INTEGER",
-          "nulo": false
+          "nulo": false,
+          "auto": true
         }
       ],
       "pk": [
@@ -9537,13 +10208,13 @@
           "nombre": "Numero",
           "tipo": "INTEGER",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Linea",
           "tipo": "INTEGER",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Articulo",
@@ -9561,7 +10232,7 @@
           "nombre": "Coste",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Talla",
@@ -9579,37 +10250,37 @@
           "nombre": "Cantidad",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Precio",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Descuento",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "IVA",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "RE",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Empleado",
           "tipo": "INTEGER",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Numero Serie",
@@ -9626,7 +10297,8 @@
         {
           "nombre": "idLin",
           "tipo": "INTEGER",
-          "nulo": false
+          "nulo": false,
+          "auto": true
         }
       ],
       "pk": [
@@ -9652,13 +10324,13 @@
           "nombre": "Codigo",
           "tipo": "INTEGER",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Linea",
           "tipo": "SMALLINT",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Talla",
@@ -9676,7 +10348,7 @@
           "nombre": "Cantidad",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Notas",
@@ -9688,19 +10360,19 @@
           "nombre": "Precio Exacto",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Porcentaje Diferencia Precio",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Importe Diferencia Precio",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         }
       ],
       "pk": [
@@ -9726,7 +10398,7 @@
           "nombre": "Numero",
           "tipo": "INTEGER",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Descripcion",
@@ -9738,7 +10410,7 @@
           "nombre": "Linea",
           "tipo": "INTEGER",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Articulo",
@@ -9750,7 +10422,7 @@
           "nombre": "Coste",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Talla",
@@ -9768,31 +10440,31 @@
           "nombre": "Cantidad",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Precio",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Descuento",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "IVA",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "RE",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Numero Serie",
@@ -9820,7 +10492,8 @@
         {
           "nombre": "idLin",
           "tipo": "INTEGER",
-          "nulo": false
+          "nulo": false,
+          "auto": true
         }
       ],
       "pk": [
@@ -9846,13 +10519,13 @@
           "nombre": "Numero",
           "tipo": "INTEGER",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Linea",
           "tipo": "INTEGER",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Articulo",
@@ -9864,7 +10537,7 @@
           "nombre": "Coste",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Descripcion",
@@ -9888,31 +10561,31 @@
           "nombre": "Cantidad",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Precio",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Descuento",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "IVA",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "RE",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         }
       ],
       "pk": [
@@ -9938,13 +10611,13 @@
           "nombre": "Numero",
           "tipo": "INTEGER",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Linea",
           "tipo": "INTEGER",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Descripcion",
@@ -9962,7 +10635,7 @@
           "nombre": "Coste",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Talla",
@@ -9980,31 +10653,31 @@
           "nombre": "Cantidad",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Precio",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Descuento",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "IVA",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "RE",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Numero Serie",
@@ -10032,7 +10705,8 @@
         {
           "nombre": "idLin",
           "tipo": "INTEGER",
-          "nulo": false
+          "nulo": false,
+          "auto": true
         }
       ],
       "pk": [
@@ -10057,7 +10731,8 @@
         {
           "nombre": "ID",
           "tipo": "INTEGER",
-          "nulo": false
+          "nulo": false,
+          "auto": true
         },
         {
           "nombre": "Usuario",
@@ -10093,7 +10768,7 @@
       ],
       "indices": [
         {
-          "nombre": "Index_D60B207F_4A18_4817",
+          "nombre": "Index_C33ECD85_A2A3_440D",
           "columnas": [
             "ID"
           ],
@@ -10108,7 +10783,8 @@
         {
           "nombre": "Id",
           "tipo": "INTEGER",
-          "nulo": false
+          "nulo": false,
+          "auto": true
         },
         {
           "nombre": "fecha",
@@ -10124,13 +10800,13 @@
           "nombre": "Operacion",
           "tipo": "INTEGER",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Camarero",
           "tipo": "INTEGER",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Ticket",
@@ -10153,25 +10829,25 @@
           "nombre": "Cantidad",
           "tipo": "DOUBLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "pvp",
           "tipo": "DOUBLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Modificado",
           "tipo": "DOUBLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Total",
           "tipo": "DOUBLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         }
       ],
       "pk": [
@@ -10194,7 +10870,8 @@
         {
           "nombre": "ID",
           "tipo": "INTEGER",
-          "nulo": false
+          "nulo": false,
+          "auto": true
         },
         {
           "nombre": "Motivo",
@@ -10208,7 +10885,7 @@
       ],
       "indices": [
         {
-          "nombre": "Index_38D83639_8E53_465E",
+          "nombre": "Index_23CD3362_B2A7_47E8",
           "columnas": [
             "ID"
           ],
@@ -10224,7 +10901,7 @@
           "nombre": "Codigo",
           "tipo": "INTEGER",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Nombre",
@@ -10236,25 +10913,25 @@
           "nombre": "Importe",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Descuento",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Cantidad 1",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Cantidad 2",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Validez",
@@ -10275,7 +10952,7 @@
           "nombre": "Dia Semana",
           "tipo": "INTEGER",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Texto Mensaje",
@@ -10287,7 +10964,7 @@
           "nombre": "Mensaje Oferta",
           "tipo": "BIT",
           "nulo": false,
-          "default": "False"
+          "defecto": "False"
         },
         {
           "nombre": "Cantuni",
@@ -10376,25 +11053,25 @@
           "nombre": "Numero Pago",
           "tipo": "INTEGER",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Importe",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Dependiente",
           "tipo": "INTEGER",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Caja",
           "tipo": "INTEGER",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Lugar Libramiento",
@@ -10406,13 +11083,13 @@
           "nombre": "Parte Trabajo",
           "tipo": "INTEGER",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Orden",
           "tipo": "SMALLINT",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Fecha Libramiento",
@@ -10429,7 +11106,7 @@
           "tipo": "TEXT",
           "tamano": 15,
           "nulo": true,
-          "default": "\"Pagado\""
+          "defecto": "\"Pagado\""
         },
         {
           "nombre": "Descripcion",
@@ -10459,7 +11136,7 @@
           "nombre": "Codigo Postal Banco",
           "tipo": "INTEGER",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Poblacion Banco",
@@ -10512,13 +11189,13 @@
           "nombre": "Moneda",
           "tipo": "SMALLINT",
           "nulo": true,
-          "default": "1"
+          "defecto": "1"
         },
         {
           "nombre": "Historico",
           "tipo": "INTEGER",
           "nulo": true,
-          "default": "-1"
+          "defecto": "-1"
         },
         {
           "nombre": "IBAN",
@@ -10562,25 +11239,25 @@
           "nombre": "Numero Pago",
           "tipo": "INTEGER",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Importe",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Proveedor",
           "tipo": "INTEGER",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Caja",
           "tipo": "INTEGER",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Lugar Libramiento",
@@ -10592,13 +11269,13 @@
           "nombre": "Factura",
           "tipo": "INTEGER",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Orden",
           "tipo": "SMALLINT",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Fecha Libramiento",
@@ -10615,7 +11292,7 @@
           "tipo": "TEXT",
           "tamano": 15,
           "nulo": true,
-          "default": "\"Pagado\""
+          "defecto": "\"Pagado\""
         },
         {
           "nombre": "Descripcion",
@@ -10645,7 +11322,7 @@
           "nombre": "Codigo Postal Banco",
           "tipo": "INTEGER",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Poblacion Banco",
@@ -10698,13 +11375,13 @@
           "nombre": "Moneda",
           "tipo": "SMALLINT",
           "nulo": true,
-          "default": "1"
+          "defecto": "1"
         },
         {
           "nombre": "Historico",
           "tipo": "INTEGER",
           "nulo": true,
-          "default": "-1"
+          "defecto": "-1"
         },
         {
           "nombre": "IBAN",
@@ -10748,25 +11425,25 @@
           "nombre": "Numero Pago",
           "tipo": "INTEGER",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Importe",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Representante",
           "tipo": "INTEGER",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Caja",
           "tipo": "INTEGER",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Lugar Libramiento",
@@ -10778,13 +11455,13 @@
           "nombre": "Factura",
           "tipo": "INTEGER",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Orden",
           "tipo": "SMALLINT",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Fecha Libramiento",
@@ -10801,7 +11478,7 @@
           "tipo": "TEXT",
           "tamano": 15,
           "nulo": true,
-          "default": "\"Pagado\""
+          "defecto": "\"Pagado\""
         },
         {
           "nombre": "Descripcion",
@@ -10831,7 +11508,7 @@
           "nombre": "Codigo Postal Banco",
           "tipo": "INTEGER",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Poblacion Banco",
@@ -10884,13 +11561,13 @@
           "nombre": "Moneda",
           "tipo": "SMALLINT",
           "nulo": true,
-          "default": "1"
+          "defecto": "1"
         },
         {
           "nombre": "Historico",
           "tipo": "INTEGER",
           "nulo": true,
-          "default": "-1"
+          "defecto": "-1"
         },
         {
           "nombre": "IBAN",
@@ -10934,25 +11611,25 @@
           "nombre": "Numero Pago",
           "tipo": "INTEGER",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Importe",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Proveedor",
           "tipo": "INTEGER",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Caja",
           "tipo": "INTEGER",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Lugar Libramiento",
@@ -10964,13 +11641,13 @@
           "nombre": "Factura",
           "tipo": "INTEGER",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Orden",
           "tipo": "SMALLINT",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Fecha Libramiento",
@@ -10987,7 +11664,7 @@
           "tipo": "TEXT",
           "tamano": 15,
           "nulo": true,
-          "default": "\"Pagado\""
+          "defecto": "\"Pagado\""
         },
         {
           "nombre": "Descripcion",
@@ -11017,7 +11694,7 @@
           "nombre": "Codigo Postal Banco",
           "tipo": "INTEGER",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Poblacion Banco",
@@ -11070,13 +11747,13 @@
           "nombre": "Moneda",
           "tipo": "SMALLINT",
           "nulo": true,
-          "default": "1"
+          "defecto": "1"
         },
         {
           "nombre": "Historico",
           "tipo": "INTEGER",
           "nulo": true,
-          "default": "-1"
+          "defecto": "-1"
         },
         {
           "nombre": "IBAN",
@@ -11119,7 +11796,8 @@
         {
           "nombre": "id",
           "tipo": "INTEGER",
-          "nulo": false
+          "nulo": false,
+          "auto": true
         },
         {
           "nombre": "asunto",
@@ -11140,7 +11818,8 @@
         {
           "nombre": "ID",
           "tipo": "INTEGER",
-          "nulo": false
+          "nulo": false,
+          "auto": true
         },
         {
           "nombre": "Nombre",
@@ -11166,7 +11845,7 @@
       ],
       "indices": [
         {
-          "nombre": "Index_4197D679_C056_47FE",
+          "nombre": "Index_0B580F2F_2A2D_462A",
           "columnas": [
             "ID"
           ],
@@ -11188,19 +11867,19 @@
           "nombre": "Proveedor",
           "tipo": "INTEGER",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Precio",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Descuento",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         }
       ],
       "indices": [
@@ -11228,19 +11907,19 @@
           "nombre": "Cliente",
           "tipo": "INTEGER",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Precio",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Descuento",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         }
       ],
       "indices": [
@@ -11262,7 +11941,7 @@
           "nombre": "Codigo",
           "tipo": "INTEGER",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Razon Social",
@@ -11292,7 +11971,7 @@
           "nombre": "Codigo Postal",
           "tipo": "INTEGER",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Poblacion",
@@ -11381,38 +12060,38 @@
           "nombre": "Tabla Descuento",
           "tipo": "INTEGER",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Descuento PP",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Impuestos",
           "tipo": "TEXT",
           "tamano": 1,
           "nulo": true,
-          "default": "\"I\""
+          "defecto": "\"I\""
         },
         {
           "nombre": "Forma de Pago",
           "tipo": "INTEGER",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Dia Pago 1",
           "tipo": "SMALLINT",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Dia Pago 2",
           "tipo": "SMALLINT",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Banco",
@@ -11430,7 +12109,7 @@
           "nombre": "Codigo Postal Banco",
           "tipo": "INTEGER",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Poblacion Banco",
@@ -11479,7 +12158,7 @@
           "tipo": "TEXT",
           "tamano": 1,
           "nulo": true,
-          "default": "\"D\""
+          "defecto": "\"D\""
         },
         {
           "nombre": "Domicilio Envio",
@@ -11491,7 +12170,7 @@
           "nombre": "Codigo Postal Envio",
           "tipo": "INTEGER",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Poblacion Envio",
@@ -11520,7 +12199,7 @@
           "nombre": "Riesgo",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Aviso",
@@ -11556,7 +12235,7 @@
           "nombre": "Margen Venta",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         }
       ],
       "pk": [
@@ -11588,25 +12267,25 @@
           "nombre": "Numero Recibo",
           "tipo": "INTEGER",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Importe",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Cliente",
           "tipo": "INTEGER",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Caja",
           "tipo": "INTEGER",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Lugar Libramiento",
@@ -11618,13 +12297,13 @@
           "nombre": "Factura",
           "tipo": "INTEGER",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Orden",
           "tipo": "SMALLINT",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Fecha Libramiento",
@@ -11641,7 +12320,7 @@
           "tipo": "TEXT",
           "tamano": 15,
           "nulo": true,
-          "default": "\"Pagado\""
+          "defecto": "\"Pagado\""
         },
         {
           "nombre": "Descripcion",
@@ -11671,7 +12350,7 @@
           "nombre": "Codigo Postal Banco",
           "tipo": "INTEGER",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Poblacion Banco",
@@ -11724,13 +12403,13 @@
           "nombre": "Moneda",
           "tipo": "SMALLINT",
           "nulo": true,
-          "default": "1"
+          "defecto": "1"
         },
         {
           "nombre": "Historico",
           "tipo": "INTEGER",
           "nulo": true,
-          "default": "-1"
+          "defecto": "-1"
         },
         {
           "nombre": "IBAN",
@@ -11788,7 +12467,8 @@
         {
           "nombre": "ID_remesa_cabecera",
           "tipo": "INTEGER",
-          "nulo": false
+          "nulo": false,
+          "auto": true
         },
         {
           "nombre": "Titulo",
@@ -11851,7 +12531,8 @@
         {
           "nombre": "ID_remesa_lineas",
           "tipo": "INTEGER",
-          "nulo": false
+          "nulo": false,
+          "auto": true
         },
         {
           "nombre": "ID_remesa_cabecera",
@@ -11896,7 +12577,7 @@
           "nombre": "Codigo",
           "tipo": "INTEGER",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Nombre",
@@ -11914,7 +12595,7 @@
           "nombre": "Codigo Postal",
           "tipo": "INTEGER",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Poblacion",
@@ -11968,7 +12649,7 @@
           "nombre": "Comision",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Aplicar Comision",
@@ -12002,7 +12683,7 @@
           "nombre": "Codigo Postal Banco",
           "tipo": "INTEGER",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Poblacion Banco",
@@ -12140,7 +12821,8 @@
         {
           "nombre": "Id",
           "tipo": "INTEGER",
-          "nulo": false
+          "nulo": false,
+          "auto": true
         },
         {
           "nombre": "Texto",
@@ -12177,601 +12859,601 @@
           "nombre": "C11",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "C12",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "C13",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "C14",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "C15",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "C21",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "C22",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "C23",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "C24",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "C25",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "C31",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "C32",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "C33",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "C34",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "C35",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "C41",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "C42",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "C43",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "C44",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "C45",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "C51",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "C52",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "C53",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "C54",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "C55",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "C00",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "C01",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "C02",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "C03",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "C04",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "C05",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "C06",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "C07",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "C08",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "C09",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "C10",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "C16",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "C17",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "C18",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "C19",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "C20",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "C26",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "C27",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "C28",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "C29",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "C30",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "C36",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "C37",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "C38",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "C39",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "C40",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "C46",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "C47",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "C48",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "C49",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "C50",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "C56",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "C57",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "C58",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "C59",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "C60",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "C61",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "C62",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "C63",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "C64",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "C65",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "C66",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "C67",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "C68",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "C69",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "C70",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "C71",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "C72",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "C73",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "C74",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "C75",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "C76",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "C77",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "C78",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "C79",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "C80",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "C81",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "C82",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "C83",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "C84",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "C85",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "C86",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "C87",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "C88",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "C89",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "C90",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "C91",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "C92",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "C93",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "C94",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "C95",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "C96",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "C97",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "C98",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "C99",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         }
       ]
     },
@@ -12787,7 +13469,7 @@
           "nombre": "Linea",
           "tipo": "SMALLINT",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Texto",
@@ -12814,6 +13496,79 @@
       ]
     },
     {
+      "nombre": "Tbai_Cadena",
+      "columnas": [
+        {
+          "nombre": "ID",
+          "tipo": "INTEGER",
+          "nulo": false,
+          "auto": true
+        },
+        {
+          "nombre": "Emisor",
+          "tipo": "TEXT",
+          "tamano": 20,
+          "nulo": true
+        },
+        {
+          "nombre": "Entorno",
+          "tipo": "TEXT",
+          "tamano": 4,
+          "nulo": true
+        },
+        {
+          "nombre": "Serie",
+          "tipo": "TEXT",
+          "tamano": 20,
+          "nulo": true
+        },
+        {
+          "nombre": "Num",
+          "tipo": "TEXT",
+          "tamano": 20,
+          "nulo": true
+        },
+        {
+          "nombre": "Fecha",
+          "tipo": "TEXT",
+          "tamano": 10,
+          "nulo": true
+        },
+        {
+          "nombre": "Huella",
+          "tipo": "TEXT",
+          "nulo": true
+        },
+        {
+          "nombre": "FechaHoraActualizacion",
+          "tipo": "DATETIME",
+          "nulo": true
+        }
+      ],
+      "pk": [
+        "ID"
+      ],
+      "indices": [
+        {
+          "nombre": "Index_0B1BE789_0220_495E",
+          "columnas": [
+            "ID"
+          ],
+          "unico": true,
+          "primario": true
+        },
+        {
+          "nombre": "idxTbaiCadena",
+          "columnas": [
+            "Emisor",
+            "Entorno"
+          ],
+          "unico": true,
+          "primario": false
+        }
+      ]
+    },
+    {
       "nombre": "Telefonos",
       "columnas": [
         {
@@ -12826,7 +13581,7 @@
           "nombre": "Linea",
           "tipo": "SMALLINT",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Nombre",
@@ -12877,13 +13632,13 @@
           "nombre": "id_albaran",
           "tipo": "DOUBLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "ultimo_precio",
           "tipo": "DOUBLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         }
       ],
       "pk": [
@@ -12936,13 +13691,13 @@
           "nombre": "Numero Factura",
           "tipo": "INTEGER",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Numero Ticket",
           "tipo": "INTEGER",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         }
       ]
     },
@@ -12953,7 +13708,7 @@
           "nombre": "Codigo",
           "tipo": "INTEGER",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Nombre",
@@ -12965,13 +13720,13 @@
           "nombre": "IVA",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Recargo",
           "tipo": "SINGLE",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Observaciones",
@@ -13007,7 +13762,8 @@
         {
           "nombre": "Codigo",
           "tipo": "INTEGER",
-          "nulo": false
+          "nulo": false,
+          "auto": true
         },
         {
           "nombre": "Nombre",
@@ -13076,7 +13832,7 @@
           "nombre": "Codigo",
           "tipo": "INTEGER",
           "nulo": true,
-          "default": "0"
+          "defecto": "0"
         },
         {
           "nombre": "Nombre",
