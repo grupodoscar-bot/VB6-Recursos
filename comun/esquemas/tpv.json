@@ -1,6 +1,6 @@
 {
   "programa": "tpv",
-  "generado": "2026-11-05",
+  "generado": "2026-11-16",
   "tablas": [
     {
       "nombre": "Accesos Directos",
@@ -5829,7 +5829,7 @@
       ],
       "indices": [
         {
-          "nombre": "Index_9BEBA01D_1907_408A",
+          "nombre": "Index_E3EB1C1B_D073_4D7F",
           "columnas": [
             "ID"
           ],
@@ -7424,7 +7424,7 @@
       ],
       "indices": [
         {
-          "nombre": "Index_421F9142_1FCA_4CAD",
+          "nombre": "Index_BB8E2B5D_0D97_422B",
           "columnas": [
             "Numero"
           ],
@@ -7485,7 +7485,7 @@
       ],
       "indices": [
         {
-          "nombre": "Index_B97A8280_82A2_4D0E",
+          "nombre": "Index_9FFC460C_5553_47A7",
           "columnas": [
             "ID"
           ],
@@ -7544,7 +7544,7 @@
       ],
       "indices": [
         {
-          "nombre": "Index_B45B097C_BDD1_44FF",
+          "nombre": "Index_8CBC848F_2478_4E20",
           "columnas": [
             "ID"
           ],
@@ -7976,7 +7976,7 @@
       ],
       "indices": [
         {
-          "nombre": "Index_768F39B1_9BBD_428F",
+          "nombre": "Index_72352291_0CD6_4FC5",
           "columnas": [
             "ID"
           ],
@@ -8242,7 +8242,7 @@
       ],
       "indices": [
         {
-          "nombre": "Index_9F3E4DDD_198C_4839",
+          "nombre": "Index_C21BDC17_89AA_43F0",
           "columnas": [
             "ID"
           ],
@@ -8365,7 +8365,7 @@
       ],
       "indices": [
         {
-          "nombre": "Index_69656DE9_B180_4983",
+          "nombre": "Index_9FED9A8B_8C63_4B1D",
           "columnas": [
             "ID"
           ],
@@ -8607,7 +8607,7 @@
       ],
       "indices": [
         {
-          "nombre": "Index_0D38641D_E964_4D95",
+          "nombre": "Index_5CEB68D4_3F80_4813",
           "columnas": [
             "ID"
           ],
@@ -9701,7 +9701,7 @@
       ],
       "indices": [
         {
-          "nombre": "LFV_NUM",
+          "nombre": "LAV_NUM",
           "columnas": [
             "Numero",
             "Linea"
@@ -10722,6 +10722,14 @@
           ],
           "unico": true,
           "primario": true
+        },
+        {
+          "nombre": "ZLAV_ART",
+          "columnas": [
+            "Articulo"
+          ],
+          "unico": false,
+          "primario": false
         }
       ]
     },
@@ -10768,7 +10776,7 @@
       ],
       "indices": [
         {
-          "nombre": "Index_C33ECD85_A2A3_440D",
+          "nombre": "Index_D60B207F_4A18_4817",
           "columnas": [
             "ID"
           ],
@@ -10885,7 +10893,7 @@
       ],
       "indices": [
         {
-          "nombre": "Index_23CD3362_B2A7_47E8",
+          "nombre": "Index_38D83639_8E53_465E",
           "columnas": [
             "ID"
           ],
@@ -11845,7 +11853,7 @@
       ],
       "indices": [
         {
-          "nombre": "Index_0B580F2F_2A2D_462A",
+          "nombre": "Index_4197D679_C056_47FE",
           "columnas": [
             "ID"
           ],
@@ -13550,7 +13558,7 @@
       ],
       "indices": [
         {
-          "nombre": "Index_0B1BE789_0220_495E",
+          "nombre": "Index_6B3B6612_184E_45BC",
           "columnas": [
             "ID"
           ],
