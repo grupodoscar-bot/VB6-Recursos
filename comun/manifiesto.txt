@@ -8,3 +8,4 @@ ad98f9f3e47d|comun/certificados-tbai/SectigoPublicServerAuthenticationRootR46.ce
 ec8a396c40f0|comun/certificados-tbai/SectigoPublicServerAuthenticationRootE46.cer|APP\certificados-tbai|*
 b9943dd2f582|comun/certificados-tbai/LEEME.txt|APP\certificados-tbai|*
 7d1499bb599f|comun/certificados-tbai/VERSION.txt|APP\certificados-tbai|*
+75c48b8a9e7a|comun/remoto/REMOTO.exe|APP|*
