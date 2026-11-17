@@ -21,6 +21,11 @@ $recursos = @(
     @{ ruta = 'comun/certificados-tbai/SectigoPublicServerAuthenticationRootE46.cer'; destino = 'APP\certificados-tbai'; programas = '*' }
     @{ ruta = 'comun/certificados-tbai/LEEME.txt'; destino = 'APP\certificados-tbai'; programas = '*' }
     @{ ruta = 'comun/certificados-tbai/VERSION.txt'; destino = 'APP\certificados-tbai'; programas = '*' }
+    # Asistencia remota (TeamViewer QuickSupport). Hasta ahora el boton de asistencia
+    # solo lo bajaba si NO estaba en la carpeta, asi que nunca se actualizaba; por el
+    # manifiesto llega a los 7 y se renueva solo cuando cambie el hash. OJO: 34 MB,
+    # descarga bloqueante al arrancar, pero UNA sola vez.
+    @{ ruta = 'comun/remoto/REMOTO.exe'; destino = 'APP'; programas = '*' }
     # @{ ruta = 'comun/recursos/verifactu.bmp'; destino = 'APP'; programas = '*' }
     # @{ ruta = 'comun/otro.exe';               destino = 'APP'; programas = 'bar,gestion' }
 )
